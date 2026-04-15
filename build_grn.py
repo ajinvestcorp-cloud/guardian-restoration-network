@@ -773,9 +773,12 @@ SERVICES = {
     },
 }
 
+
 # ─── CITY DEFINITIONS ────────────────────────────────────────────────────────
 
 CITIES = {
+
+    # ── OREGON ──────────────────────────────────────────────────────────────
     "portland-or": {
         "city": "Portland",
         "state": "Oregon",
@@ -790,6 +793,78 @@ CITIES = {
             "general-contractor": "Portland has a strong demand for insurance reconstruction contractors following water, fire, and storm damage events. The city's older housing stock requires contractors experienced in working with historic materials and current code requirements.",
         }
     },
+    "salem-or": {
+        "city": "Salem",
+        "state": "Oregon",
+        "abbrev": "OR",
+        "context": {
+            "water-damage": "Salem sits in the Willamette Valley and receives over 40 inches of annual rainfall. Seasonal flooding from the Willamette River and its tributaries creates significant water intrusion risk for homes in low-lying areas. Older housing stock throughout the city is susceptible to foundation seepage and pipe failures during hard freezes.",
+            "fire-damage": "Salem's older residential neighborhoods contain Craftsman and Victorian-era homes with aging electrical systems that carry elevated fire risk. Dry Willamette Valley summers increase wildfire smoke exposure and the risk of structure fires.",
+            "mold-remediation": "Salem's valley location and high annual rainfall create persistent moisture conditions ideal for mold growth. Older rental housing near Willamette University and downtown Salem is particularly susceptible to wall cavity and crawl space mold.",
+            "storm-damage": "Salem experiences Pacific windstorms and atmospheric river events that cause roof damage and downed trees throughout the area. Ice storms occur periodically in winter, causing structural damage to older roofing systems.",
+            "biohazard-cleanup": "Salem's older sewer infrastructure causes backups during heavy rainfall events. The city also has consistent demand for unattended death, hoarding, and biohazard cleanup services across its residential and commercial properties.",
+            "asbestos-abatement": "Salem has a substantial inventory of pre-1980 housing, particularly in its historic neighborhoods. Asbestos is commonly found in popcorn ceilings, vinyl floor tiles, pipe insulation, and joint compound throughout older Salem homes.",
+            "general-contractor": "Salem's role as Oregon's state capital brings steady demand for licensed general contractors handling insurance reconstruction for both residential properties and government-adjacent commercial buildings damaged by water, fire, or storm events.",
+        }
+    },
+    "eugene-or": {
+        "city": "Eugene",
+        "state": "Oregon",
+        "abbrev": "OR",
+        "context": {
+            "water-damage": "Eugene receives over 47 inches of annual rainfall and sits near the Willamette River, creating significant flood and water intrusion risk. High-density older rental housing near the University of Oregon is particularly vulnerable to deferred maintenance water damage, pipe failures, and appliance overflow events.",
+            "fire-damage": "Eugene's large stock of older rental housing near the University of Oregon carries elevated fire risk from aging electrical systems and deferred maintenance. Dry Lane County summers create wildfire risk in surrounding areas that can affect air quality and cause smoke intrusion.",
+            "mold-remediation": "Eugene's high annual rainfall and large population of older rental homes create persistent mold problems. Poor ventilation in older structures near the university and downtown Eugene allows mold to establish quickly after any water event.",
+            "storm-damage": "Eugene experiences powerful Pacific windstorms and atmospheric river events that cause significant roof damage, fallen trees, and structural impacts. The Willamette Valley's geography funnels storm systems through the Eugene area with regularity.",
+            "biohazard-cleanup": "Eugene's combined sewer areas and older residential neighborhoods experience sewage backups during major rain events. The city also has demand for crime scene, unattended death, and hoarding cleanup services.",
+            "asbestos-abatement": "Eugene has a high concentration of pre-1980 housing stock, particularly in older neighborhoods and student rental areas near the University of Oregon. Asbestos is present in many of these homes in popcorn ceilings, floor tiles, pipe insulation, and drywall compound.",
+            "general-contractor": "Eugene's mix of older residential housing, university-adjacent properties, and commercial buildings creates consistent demand for licensed general contractors managing insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "bend-or": {
+        "city": "Bend",
+        "state": "Oregon",
+        "abbrev": "OR",
+        "context": {
+            "water-damage": "Bend's high desert climate brings cold winters with hard freezes that cause pipe bursts — the number one source of water damage in the area. Rapid spring snowmelt creates roof leak and foundation seepage events. The city's fast growth means many newer homes alongside older structures with varying maintenance histories.",
+            "fire-damage": "Bend sits in the wildland-urban interface with significant wildfire risk during dry Central Oregon summers. The surrounding Deschutes National Forest creates ongoing ember and smoke intrusion risk. Many Bend homes have sustained fire and smoke damage from nearby wildfires in recent years.",
+            "mold-remediation": "While Bend is drier than western Oregon, pipe burst events and roof leaks during winter create localized moisture conditions that lead to mold growth if not addressed immediately. Crawl spaces and attics in older Bend homes are common mold sites.",
+            "storm-damage": "Bend experiences winter snow loads that can cause roof collapse or damage in older structures. Wind events are common in spring and fall. Hail storms in summer cause roof and siding damage throughout the Bend metro area.",
+            "biohazard-cleanup": "Bend has consistent demand for biohazard, unattended death, and hoarding cleanup services across its residential and vacation rental property market. The area's short-term rental inventory creates unique cleanup needs.",
+            "asbestos-abatement": "Bend has a mix of pre-1980 housing in its older core neighborhoods and newer construction in surrounding developments. Pre-1980 homes contain asbestos in common materials including popcorn ceilings, floor tiles, and pipe insulation.",
+            "general-contractor": "Bend's rapidly growing real estate market and wildland-urban interface location create strong demand for licensed general contractors handling insurance reconstruction after fire, storm, and water damage events.",
+        }
+    },
+    "medford-or": {
+        "city": "Medford",
+        "state": "Oregon",
+        "abbrev": "OR",
+        "context": {
+            "water-damage": "Medford's Rogue Valley location brings cold winters with periodic hard freezes that cause pipe bursts and water damage. The city serves as the regional hub for all of southern Oregon, with a mix of older downtown housing and newer suburban development across the valley.",
+            "fire-damage": "Medford and the surrounding Rogue Valley have sustained significant wildfire damage in recent years, including the 2020 Almeda Fire that destroyed thousands of homes in nearby Talent and Phoenix. Wildfire smoke and ember intrusion remain major risks for Medford properties during dry summers.",
+            "mold-remediation": "Medford's Rogue Valley location with hot dry summers and cold wet winters creates seasonal moisture fluctuations that drive mold growth in older homes. Post-water damage mold is a common issue in the area's aging residential stock.",
+            "storm-damage": "Medford experiences winter ice storms, wind events, and occasional heavy snowfall that cause roof and structural damage. The valley's geography can concentrate storm impacts in specific neighborhoods.",
+            "biohazard-cleanup": "Medford serves as the regional center for southern Oregon, creating demand for biohazard, crime scene, unattended death, and hoarding cleanup services across a wide geographic area including surrounding rural communities.",
+            "asbestos-abatement": "Medford's older downtown and established residential neighborhoods contain significant pre-1980 housing stock with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound.",
+            "general-contractor": "Medford's role as the commercial and services hub for southern Oregon creates strong demand for licensed general contractors handling insurance reconstruction after the region's frequent fire, storm, and water damage events.",
+        }
+    },
+    "corvallis-or": {
+        "city": "Corvallis",
+        "state": "Oregon",
+        "abbrev": "OR",
+        "context": {
+            "water-damage": "Corvallis receives over 44 inches of annual rainfall and has a large stock of older rental housing near Oregon State University that is particularly vulnerable to deferred maintenance water damage. The Willamette River creates flood risk for properties in low-lying areas of the city.",
+            "fire-damage": "Corvallis has a large inventory of older residential and academic buildings near Oregon State University with aging electrical systems. Dry Willamette Valley summers increase fire risk in surrounding areas.",
+            "mold-remediation": "Corvallis's high rainfall and large population of older rental properties near Oregon State University create persistent mold problems. Poor ventilation in older homes and student housing allows mold to establish quickly after water events.",
+            "storm-damage": "Corvallis experiences Pacific windstorms and atmospheric river events that cause roof damage and structural impacts throughout the city. Older campus-area housing is particularly vulnerable to storm damage.",
+            "biohazard-cleanup": "Corvallis has consistent demand for biohazard, unattended death, and hoarding cleanup services in its residential and rental property market, particularly in older student housing areas.",
+            "asbestos-abatement": "Corvallis has a high concentration of pre-1980 housing, particularly in older neighborhoods and student rental areas near Oregon State University. Asbestos is commonly present in these homes in popcorn ceilings, floor tiles, pipe insulation, and drywall compound.",
+            "general-contractor": "Corvallis's mix of older residential housing, university-adjacent properties, and commercial buildings creates demand for licensed general contractors managing insurance reconstruction after water, storm, and fire damage events.",
+        }
+    },
+
+    # ── WASHINGTON ───────────────────────────────────────────────────────────
     "seattle-wa": {
         "city": "Seattle",
         "state": "Washington",
@@ -804,8 +879,583 @@ CITIES = {
             "general-contractor": "Seattle's strong real estate market and older housing stock create consistent demand for licensed general contractors handling insurance reconstruction and renovation projects.",
         }
     },
-}
+    "spokane-wa": {
+        "city": "Spokane",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Spokane's continental climate brings cold winters with hard freezes that cause pipe bursts and water damage throughout the city. Spring snowmelt from the surrounding mountains creates flood risk in low-lying areas. The Spokane River runs through the city, adding flood exposure for riverside properties.",
+            "fire-damage": "Spokane sits in Eastern Washington where dry summers and wind-driven conditions create significant wildfire risk. The city's older South Hill and West Central neighborhoods contain pre-1900s housing with aging electrical systems that carry elevated fire risk.",
+            "mold-remediation": "Spokane's climate swings — wet winters and dry summers — create seasonal moisture conditions that drive mold growth in older homes. Crawl spaces and basements in Spokane's older housing stock are common mold sites following pipe burst or water intrusion events.",
+            "storm-damage": "Spokane experiences severe winter storms with heavy snow loads that cause roof damage in older structures. Windstorms are common in spring and fall and cause significant roof and structural damage throughout the Spokane metro area.",
+            "biohazard-cleanup": "Spokane has consistent demand for biohazard, crime scene, unattended death, and hoarding cleanup services across its residential neighborhoods. The city serves as the regional hub for eastern Washington and northern Idaho.",
+            "asbestos-abatement": "Spokane has a large inventory of pre-1980 housing, particularly in its established South Hill, Browne's Addition, and West Central neighborhoods. Asbestos is commonly found in popcorn ceilings, floor tiles, pipe insulation, and drywall compound in these older homes.",
+            "general-contractor": "Spokane's position as eastern Washington's largest city creates strong demand for licensed general contractors handling insurance reconstruction after the region's frequent water, fire, and storm damage events.",
+        }
+    },
+    "tacoma-wa": {
+        "city": "Tacoma",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Tacoma receives over 38 inches of annual rainfall and has a large inventory of older housing in neighborhoods like Hilltop, South End, and the Dome District that are vulnerable to water intrusion and pipe failures. Combined sewer areas experience backups during major rain events.",
+            "fire-damage": "Tacoma's older residential neighborhoods contain Craftsman and Victorian-era homes with aging electrical systems that carry elevated fire risk. Industrial history in parts of the city adds complexity to fire restoration in mixed-use areas.",
+            "mold-remediation": "Tacoma's marine climate and extended wet season create persistent mold risk in older homes. Crawl spaces and basements in Tacoma's established neighborhoods are common mold sites, particularly following water damage events.",
+            "storm-damage": "Tacoma is exposed to Pacific windstorms and atmospheric river events that cause significant roof and structural damage. The city's location on Puget Sound amplifies storm impacts in waterfront and elevated neighborhoods.",
+            "biohazard-cleanup": "Tacoma has consistent demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its diverse residential neighborhoods. Older multi-family housing creates recurring sewage backup cleanup needs.",
+            "asbestos-abatement": "Tacoma has a substantial inventory of pre-1980 housing across all neighborhoods, with asbestos present in popcorn ceilings, vinyl floor tiles, pipe insulation, and HVAC insulation in older structures throughout the city.",
+            "general-contractor": "Tacoma's strong real estate market and large stock of older housing create consistent demand for licensed general contractors managing insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "vancouver-wa": {
+        "city": "Vancouver",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Vancouver WA receives over 42 inches of annual rainfall and sits directly across the Columbia River from Portland. The city's rapid growth has brought a mix of older established neighborhoods and newer developments, all subject to the Pacific Northwest's extended wet season and storm-driven water intrusion events.",
+            "fire-damage": "Vancouver WA's older neighborhoods contain aging housing stock with elevated fire risk from outdated electrical systems. The city's proximity to the Columbia River Gorge creates exposure to wind-driven fire conditions during dry eastern wind events.",
+            "mold-remediation": "Vancouver WA's wet climate and mix of older and newer housing stock create consistent mold risk. Crawl spaces, attics, and wall cavities in older Vancouver neighborhoods are common mold sites following water damage events.",
+            "storm-damage": "Vancouver WA experiences the same Pacific windstorms and atmospheric river events as Portland, with the Columbia River Gorge amplifying wind impacts in eastern parts of the city. Ice storms occur periodically in winter.",
+            "biohazard-cleanup": "Vancouver WA has consistent demand for biohazard, unattended death, sewage backup, and hoarding cleanup services across its rapidly growing residential market.",
+            "asbestos-abatement": "Vancouver WA has a significant inventory of pre-1980 housing in its established neighborhoods. Asbestos is commonly found in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout older Vancouver homes.",
+            "general-contractor": "Vancouver WA's rapid population growth and mix of older and newer housing stock create strong demand for licensed general contractors handling insurance reconstruction after the region's frequent water, fire, and storm damage events.",
+        }
+    },
+    "bellevue-wa": {
+        "city": "Bellevue",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Bellevue's Eastside location receives significant annual rainfall and is subject to the same extended Pacific Northwest wet season as Seattle. Hillside properties in Bellevue face elevated landslide and water intrusion risk during atmospheric river events.",
+            "fire-damage": "Bellevue's mix of older residential neighborhoods and newer high-value construction creates diverse fire risk profiles. Aging electrical systems in older Bellevue homes and dry summer conditions increase fire exposure.",
+            "mold-remediation": "Bellevue's wet climate and hillside topography create persistent moisture conditions that drive mold growth in crawl spaces, attics, and wall cavities. High-value homes in Bellevue require careful, professional mold remediation to protect property values.",
+            "storm-damage": "Bellevue experiences Pacific windstorms and heavy rainfall events that cause roof damage, fallen trees, and landslides on hillside properties. The city's tree canopy creates significant storm damage risk during wind events.",
+            "biohazard-cleanup": "Bellevue has consistent demand for biohazard, unattended death, and hoarding cleanup services across its residential and commercial properties.",
+            "asbestos-abatement": "Bellevue has older residential neighborhoods with pre-1980 housing stock containing asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Many renovation and restoration projects require abatement before work can begin.",
+            "general-contractor": "Bellevue's high-value real estate market creates strong demand for licensed general contractors managing insurance reconstruction to pre-loss quality standards after water, fire, and storm damage events.",
+        }
+    },
+    "kent-wa": {
+        "city": "Kent",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Kent sits in the Green River Valley and has a history of flooding risk. The city receives significant annual rainfall and has older residential neighborhoods vulnerable to water intrusion and pipe failures during extended wet season events.",
+            "fire-damage": "Kent's mix of older residential housing and industrial areas creates diverse fire risk. Older residential neighborhoods contain aging electrical systems that increase structure fire risk.",
+            "mold-remediation": "Kent's valley location and wet climate create persistent moisture conditions that drive mold growth in older homes. Crawl spaces in Kent's established residential neighborhoods are common mold sites following water damage.",
+            "storm-damage": "Kent experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage throughout the city. The Green River Valley's geography can concentrate storm impacts in low-lying areas.",
+            "biohazard-cleanup": "Kent has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its diverse residential and commercial properties.",
+            "asbestos-abatement": "Kent has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound throughout its older residential neighborhoods.",
+            "general-contractor": "Kent's large residential market creates consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events throughout the Green River Valley.",
+        }
+    },
+    "everett-wa": {
+        "city": "Everett",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Everett receives significant annual rainfall as part of the Puget Sound region's extended wet season. The city's older residential neighborhoods and proximity to waterways create water intrusion, flooding, and pipe failure risks throughout the year.",
+            "fire-damage": "Everett's older residential neighborhoods in the downtown core and Bayside area contain aging housing stock with elevated fire risk. Industrial history near the waterfront adds complexity to fire restoration in mixed-use areas.",
+            "mold-remediation": "Everett's wet climate and older housing stock create persistent mold risk in crawl spaces, attics, and wall cavities. Post-water damage mold is a common secondary issue in Everett's established residential neighborhoods.",
+            "storm-damage": "Everett is exposed to Pacific windstorms and convergence zone weather events that intensify local storm impacts. The city's Puget Sound waterfront location amplifies wind and rain damage during major storm events.",
+            "biohazard-cleanup": "Everett has consistent demand for biohazard, unattended death, crime scene, and sewage backup cleanup services across its residential and commercial properties.",
+            "asbestos-abatement": "Everett has a large inventory of pre-1980 housing throughout its established neighborhoods, with asbestos commonly present in popcorn ceilings, floor tiles, pipe insulation, and HVAC systems.",
+            "general-contractor": "Everett's residential market and older housing stock create strong demand for licensed general contractors handling insurance reconstruction after the region's frequent water, fire, and storm damage events.",
+        }
+    },
+    "spokane-valley-wa": {
+        "city": "Spokane Valley",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Spokane Valley shares Eastern Washington's continental climate, with cold winters that cause pipe bursts and spring snowmelt that creates flood risk. The Spokane River runs through the area, adding water intrusion exposure for nearby properties.",
+            "fire-damage": "Spokane Valley's location in eastern Washington's dry climate zone creates significant wildfire risk during summer months. The city's residential neighborhoods contain older homes with aging electrical systems that carry elevated fire risk.",
+            "mold-remediation": "Spokane Valley's climate — wet winters and dry summers — creates seasonal moisture conditions that drive mold in older homes. Crawl spaces and basements following pipe burst or water intrusion events are common mold sites.",
+            "storm-damage": "Spokane Valley experiences severe winter storms with heavy snow loads that damage older roofing systems. Spring and fall windstorms cause roof and structural damage throughout the community.",
+            "biohazard-cleanup": "Spokane Valley has consistent demand for biohazard, unattended death, and hoarding cleanup services. As a large suburban community east of Spokane, it generates significant residential cleanup needs.",
+            "asbestos-abatement": "Spokane Valley has pre-1980 housing stock throughout its established residential areas, with asbestos present in popcorn ceilings, floor tiles, pipe insulation, and drywall compound in older homes.",
+            "general-contractor": "Spokane Valley's large residential market creates steady demand for licensed general contractors managing insurance reconstruction after the area's frequent water, fire, and storm damage events.",
+        }
+    },
+    "renton-wa": {
+        "city": "Renton",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Renton sits at the south end of Lake Washington and receives significant annual rainfall. The city's hillside neighborhoods face landslide and water intrusion risk during heavy rain events. Cedar River flooding creates water damage exposure for properties in low-lying areas.",
+            "fire-damage": "Renton's mix of older residential neighborhoods and newer commercial development creates diverse fire risk profiles. Older homes in established Renton neighborhoods carry elevated risk from aging electrical systems.",
+            "mold-remediation": "Renton's wet climate and hillside topography create persistent moisture conditions that drive mold in crawl spaces and wall cavities. Post-water damage mold is a common issue in older Renton residential properties.",
+            "storm-damage": "Renton experiences Pacific windstorms and heavy rainfall that cause roof damage and landslides on hillside properties. The Cedar River corridor creates flood risk during major storm events.",
+            "biohazard-cleanup": "Renton has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its growing residential and commercial market.",
+            "asbestos-abatement": "Renton has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Renovation and restoration projects frequently require abatement.",
+            "general-contractor": "Renton's strong real estate market creates consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "federal-way-wa": {
+        "city": "Federal Way",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Federal Way receives significant annual rainfall as part of the Puget Sound region's extended wet season. The city's residential neighborhoods include older housing stock vulnerable to water intrusion and pipe failures during prolonged wet weather.",
+            "fire-damage": "Federal Way's older residential neighborhoods contain aging housing stock with elevated fire risk from outdated electrical systems. The city's mix of housing types creates diverse fire restoration needs.",
+            "mold-remediation": "Federal Way's wet climate and older housing stock create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in the city's established residential neighborhoods.",
+            "storm-damage": "Federal Way experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage throughout the city. The area's tree canopy creates significant storm damage risk during wind events.",
+            "biohazard-cleanup": "Federal Way has consistent demand for biohazard, unattended death, sewage backup, and hoarding cleanup services across its large residential market.",
+            "asbestos-abatement": "Federal Way has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Federal Way's large residential market creates strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "yakima-wa": {
+        "city": "Yakima",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Yakima's semi-arid high desert climate brings cold winters with hard freezes that cause pipe bursts — the primary source of water damage in the area. Irrigation infrastructure throughout the Yakima Valley creates additional water intrusion risk for agricultural and residential properties.",
+            "fire-damage": "Yakima sits in central Washington's dry climate zone with significant wildfire risk during hot dry summers. The city's older residential neighborhoods contain pre-1960s housing with aging electrical systems that carry elevated fire risk.",
+            "mold-remediation": "While Yakima is drier than western Washington, pipe burst events and irrigation leaks create localized moisture conditions that lead to mold growth if not addressed immediately. Older homes in Yakima's historic neighborhoods are common mold sites.",
+            "storm-damage": "Yakima experiences wind events, dust storms, and occasional heavy snow that cause roof and structural damage. Spring windstorms are particularly damaging to older roofing systems throughout the Yakima Valley.",
+            "biohazard-cleanup": "Yakima has consistent demand for biohazard, unattended death, and hoarding cleanup services as the regional hub for central Washington's agricultural communities.",
+            "asbestos-abatement": "Yakima has a significant inventory of pre-1980 housing, particularly in its historic downtown neighborhoods. Asbestos is present in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout older Yakima homes.",
+            "general-contractor": "Yakima's role as central Washington's commercial hub creates demand for licensed general contractors handling insurance reconstruction for both residential properties and agricultural support facilities.",
+        }
+    },
+    "bellingham-wa": {
+        "city": "Bellingham",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Bellingham receives over 35 inches of annual rainfall and has an extended wet season as part of the Pacific Northwest marine climate. The city's hillside neighborhoods face water intrusion and landslide risk during major storm events. Whatcom Creek and other waterways create flood exposure for low-lying properties.",
+            "fire-damage": "Bellingham's older Fairhaven and Sehome neighborhoods contain historic housing with aging electrical systems that carry elevated fire risk. Dry eastern slope conditions during summer increase wildfire smoke exposure.",
+            "mold-remediation": "Bellingham's wet marine climate creates persistent mold risk in crawl spaces, attics, and wall cavities throughout the city. Older housing near Western Washington University is particularly susceptible to mold following water damage events.",
+            "storm-damage": "Bellingham experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage. The city's hillside topography and proximity to the Strait of Georgia amplify storm impacts in elevated neighborhoods.",
+            "biohazard-cleanup": "Bellingham has consistent demand for biohazard, unattended death, and hoarding cleanup services as the primary city in Whatcom County and the regional hub near the Canadian border.",
+            "asbestos-abatement": "Bellingham has a large inventory of pre-1980 housing in its historic neighborhoods, with asbestos present in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout older Bellingham homes.",
+            "general-contractor": "Bellingham's growing real estate market and older housing stock create strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "kirkland-wa": {
+        "city": "Kirkland",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Kirkland's Lake Washington waterfront location and hillside neighborhoods create elevated water intrusion risk during the Pacific Northwest's extended wet season. Hillside properties face landslide risk during heavy rain events.",
+            "fire-damage": "Kirkland's older residential neighborhoods contain aging housing stock with elevated fire risk. High-value waterfront and hillside properties require specialized fire restoration contractors experienced with premium finishes.",
+            "mold-remediation": "Kirkland's wet climate and hillside topography create persistent moisture conditions that drive mold in crawl spaces and wall cavities. High-value homes in Kirkland require professional mold remediation to protect property values.",
+            "storm-damage": "Kirkland experiences Pacific windstorms and heavy rainfall events that cause roof damage, fallen trees, and landslides on hillside properties. The city's mature tree canopy creates significant storm damage risk during wind events.",
+            "biohazard-cleanup": "Kirkland has consistent demand for biohazard, unattended death, and hoarding cleanup services across its affluent residential market.",
+            "asbestos-abatement": "Kirkland has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, and pipe insulation. Renovation and restoration projects regularly require abatement before work can proceed.",
+            "general-contractor": "Kirkland's high-value real estate market creates strong demand for licensed general contractors managing insurance reconstruction to premium standards after water, fire, and storm damage events.",
+        }
+    },
+    "kennewick-wa": {
+        "city": "Kennewick",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Kennewick's semi-arid Tri-Cities climate brings cold winters with hard freezes that cause pipe bursts. The Columbia River creates flood risk for riverside properties, and irrigation infrastructure throughout the region adds water intrusion exposure.",
+            "fire-damage": "Kennewick sits in eastern Washington's dry climate zone with significant wildfire risk during hot dry summers. The city's older residential neighborhoods contain aging housing stock with elevated fire risk.",
+            "mold-remediation": "While Kennewick is dry, pipe burst events and Columbia River flooding create localized moisture conditions that lead to mold if not addressed quickly. Older homes in Kennewick's established neighborhoods are common mold sites.",
+            "storm-damage": "Kennewick experiences wind events and occasional heavy snow that cause roof and structural damage. The Columbia Basin's open geography amplifies wind impacts throughout the Tri-Cities area.",
+            "biohazard-cleanup": "Kennewick serves as one of the three Tri-Cities commercial hubs, creating consistent demand for biohazard, unattended death, and hoarding cleanup services across the region.",
+            "asbestos-abatement": "Kennewick has pre-1980 housing in its established neighborhoods with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. The area's older ranch-style homes frequently contain these materials.",
+            "general-contractor": "Kennewick's Tri-Cities market creates demand for licensed general contractors handling insurance reconstruction for both residential properties and commercial facilities after water, fire, and storm damage events.",
+        }
+    },
+    "auburn-wa": {
+        "city": "Auburn",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Auburn sits in the Green River Valley and has a history of flooding risk. The city receives significant annual rainfall and has older residential neighborhoods vulnerable to water intrusion and pipe failures during extended wet season events.",
+            "fire-damage": "Auburn's mix of older residential housing and industrial areas creates diverse fire risk profiles. Older residential neighborhoods contain aging electrical systems that increase structure fire risk.",
+            "mold-remediation": "Auburn's valley location and wet climate create persistent moisture conditions that drive mold growth in older homes. Crawl spaces in Auburn's established residential neighborhoods are common mold sites following water damage.",
+            "storm-damage": "Auburn experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage throughout the city. Green River flooding during major storm events creates water damage risk for low-lying properties.",
+            "biohazard-cleanup": "Auburn has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its diverse residential and commercial properties.",
+            "asbestos-abatement": "Auburn has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound throughout its older residential neighborhoods.",
+            "general-contractor": "Auburn's large residential market creates consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events throughout the Green River Valley.",
+        }
+    },
+    "redmond-wa": {
+        "city": "Redmond",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Redmond's Eastside location receives significant annual rainfall and is subject to the Pacific Northwest's extended wet season. Hillside properties and areas near the Sammamish River face water intrusion and flooding risk during heavy rain events.",
+            "fire-damage": "Redmond's mix of older residential neighborhoods and newer tech campus development creates diverse fire risk profiles. Older homes in established Redmond neighborhoods carry elevated risk from aging electrical systems.",
+            "mold-remediation": "Redmond's wet climate and hillside topography create persistent moisture conditions that drive mold in crawl spaces and wall cavities. Post-water damage mold is a common issue in older Redmond residential properties.",
+            "storm-damage": "Redmond experiences Pacific windstorms and heavy rainfall that cause roof damage and tree falls throughout the city. The Sammamish River corridor creates flood risk during major storm events.",
+            "biohazard-cleanup": "Redmond has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its growing residential and commercial market.",
+            "asbestos-abatement": "Redmond has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Renovation projects frequently require abatement.",
+            "general-contractor": "Redmond's strong real estate market and mix of older and newer housing create consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "pasco-wa": {
+        "city": "Pasco",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Pasco's Tri-Cities location in eastern Washington brings cold winters with hard freezes that cause pipe bursts. The Columbia and Snake River confluence creates flood risk for riverside properties and irrigation infrastructure adds additional water exposure.",
+            "fire-damage": "Pasco sits in eastern Washington's dry climate zone with significant wildfire risk during hot dry summers. The city's rapidly growing residential areas include both older homes with aging systems and newer construction.",
+            "mold-remediation": "While Pasco is semi-arid, pipe burst events and river flooding create localized moisture conditions that lead to mold if not addressed promptly. Newer construction with improper moisture barriers is also a mold risk factor.",
+            "storm-damage": "Pasco experiences wind events and occasional heavy snow that cause roof and structural damage. The Columbia Basin's open geography creates strong wind exposure throughout the Tri-Cities area.",
+            "biohazard-cleanup": "Pasco serves as one of the fastest-growing Tri-Cities communities, creating consistent demand for biohazard, unattended death, and hoarding cleanup services.",
+            "asbestos-abatement": "Pasco has older housing in established neighborhoods with asbestos in popcorn ceilings, floor tiles, and pipe insulation. Pre-1980 homes require testing and abatement before any renovation or restoration work.",
+            "general-contractor": "Pasco's rapid growth and Tri-Cities market create demand for licensed general contractors handling insurance reconstruction for both residential properties and commercial facilities.",
+        }
+    },
+    "marysville-wa": {
+        "city": "Marysville",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Marysville receives significant annual rainfall as part of the Puget Sound region's extended wet season. The city sits in the Snohomish River delta area with flood risk for low-lying properties. Older and newer residential neighborhoods both face water intrusion risk during atmospheric river events.",
+            "fire-damage": "Marysville's rapidly growing residential areas include older homes with aging electrical systems alongside newer construction. The city's proximity to forested areas creates wildfire smoke exposure during dry summers.",
+            "mold-remediation": "Marysville's wet climate and growing residential base create persistent mold risk in crawl spaces and attics. Post-water damage mold is a common secondary issue following the area's frequent rainfall events.",
+            "storm-damage": "Marysville experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage. Snohomish River flooding during major storms creates water damage risk for low-lying neighborhoods.",
+            "biohazard-cleanup": "Marysville has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services as one of Snohomish County's fastest-growing communities.",
+            "asbestos-abatement": "Marysville has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, and pipe insulation alongside newer construction.",
+            "general-contractor": "Marysville's rapid growth creates strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events throughout northern Snohomish County.",
+        }
+    },
+    "sammamish-wa": {
+        "city": "Sammamish",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Sammamish's hillside location on the Sammamish Plateau receives significant annual rainfall. Hillside properties face water intrusion and landslide risk during heavy rain events. Lake Sammamish waterfront properties face additional water exposure.",
+            "fire-damage": "Sammamish's newer planned community development includes homes with modern electrical systems, but older areas and dry summer conditions create fire risk. The city's forested setting increases wildfire smoke exposure.",
+            "mold-remediation": "Sammamish's wet climate and hillside topography create persistent moisture conditions that drive mold in crawl spaces. High-value homes in Sammamish require professional mold remediation to protect property values.",
+            "storm-damage": "Sammamish experiences Pacific windstorms and heavy rainfall that cause roof damage, fallen trees, and landslides on hillside properties. The Plateau's elevation amplifies wind impacts during major storm events.",
+            "biohazard-cleanup": "Sammamish has consistent demand for biohazard, unattended death, and hoarding cleanup services across its affluent residential community.",
+            "asbestos-abatement": "Sammamish has older residential areas with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, and pipe insulation. Renovation and restoration projects require abatement before work can begin.",
+            "general-contractor": "Sammamish's high-value real estate market creates strong demand for licensed general contractors managing insurance reconstruction to premium standards after water, fire, and storm damage events.",
+        }
+    },
+    "richland-wa": {
+        "city": "Richland",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Richland's Tri-Cities location in eastern Washington brings cold winters with hard freezes that cause pipe bursts. The Columbia River creates flood risk for riverside properties and Richland's irrigation infrastructure adds additional water exposure for residential properties.",
+            "fire-damage": "Richland sits adjacent to the Hanford Site in eastern Washington's dry climate zone with significant wildfire risk during hot summers. The city's residential neighborhoods include both historic post-war housing and newer construction.",
+            "mold-remediation": "While Richland is semi-arid, pipe burst events and Columbia River flooding create localized moisture conditions that lead to mold growth if not addressed quickly. Older post-war ranch homes are common mold sites.",
+            "storm-damage": "Richland experiences wind events and occasional heavy snow that cause roof and structural damage. The Columbia Basin's open geography creates strong wind exposure throughout the Tri-Cities area.",
+            "biohazard-cleanup": "Richland serves one of the Tri-Cities communities with consistent demand for biohazard, unattended death, and hoarding cleanup services.",
+            "asbestos-abatement": "Richland has significant pre-1980 housing stock from its post-war Atomic City development era. Many Richland homes contain asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound.",
+            "general-contractor": "Richland's Tri-Cities market and historic post-war housing create demand for licensed general contractors handling insurance reconstruction for both residential properties and commercial facilities.",
+        }
+    },
+    "lakewood-wa": {
+        "city": "Lakewood",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Lakewood's location in Pierce County receives significant annual rainfall as part of the Puget Sound region's extended wet season. The city's older residential neighborhoods and proximity to American Lake create water intrusion risk during heavy rain events.",
+            "fire-damage": "Lakewood's older residential neighborhoods contain aging housing stock with elevated fire risk from outdated electrical systems. Joint Base Lewis-McChord adjacency creates a large residential market with diverse restoration needs.",
+            "mold-remediation": "Lakewood's wet climate and older housing stock create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in Lakewood's established residential neighborhoods.",
+            "storm-damage": "Lakewood experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage throughout the city. Older roofing systems in established neighborhoods are particularly vulnerable.",
+            "biohazard-cleanup": "Lakewood has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its large residential market near Joint Base Lewis-McChord.",
+            "asbestos-abatement": "Lakewood has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound throughout its older residential neighborhoods.",
+            "general-contractor": "Lakewood's large residential market near Joint Base Lewis-McChord creates consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "shoreline-wa": {
+        "city": "Shoreline",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Shoreline's location on the north edge of Seattle receives significant annual rainfall throughout the Pacific Northwest wet season. Older residential neighborhoods throughout Shoreline face water intrusion and pipe failure risk during extended wet weather.",
+            "fire-damage": "Shoreline's established residential neighborhoods contain older housing stock with aging electrical systems that carry elevated fire risk. The city's suburban character creates a large single-family home restoration market.",
+            "mold-remediation": "Shoreline's wet climate and older housing stock create persistent mold risk in crawl spaces, attics, and wall cavities. Post-water damage mold is a common secondary issue in Shoreline's established neighborhoods.",
+            "storm-damage": "Shoreline experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage. The city's mature tree canopy creates significant storm damage risk during wind events.",
+            "biohazard-cleanup": "Shoreline has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large residential market.",
+            "asbestos-abatement": "Shoreline has a large inventory of pre-1980 housing throughout its established neighborhoods, with asbestos present in popcorn ceilings, floor tiles, pipe insulation, and drywall compound.",
+            "general-contractor": "Shoreline's large residential market creates strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "lacey-wa": {
+        "city": "Lacey",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Lacey's location in the South Puget Sound area receives significant annual rainfall. The city's rapidly growing residential base includes both older housing and new construction, all subject to the Pacific Northwest's extended wet season and storm-driven water events.",
+            "fire-damage": "Lacey's residential neighborhoods include older homes with aging electrical systems alongside newer construction. The city's proximity to forested areas creates wildfire smoke exposure during dry summers.",
+            "mold-remediation": "Lacey's wet climate and mix of housing ages create consistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in both older and newer Lacey properties.",
+            "storm-damage": "Lacey experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage throughout the city. Proximity to Puget Sound amplifies storm impacts.",
+            "biohazard-cleanup": "Lacey has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services as one of Thurston County's growing communities adjacent to Olympia.",
+            "asbestos-abatement": "Lacey has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, and pipe insulation alongside newer construction.",
+            "general-contractor": "Lacey's growing residential market in the South Puget Sound area creates demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "olympia-wa": {
+        "city": "Olympia",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Olympia receives over 50 inches of annual rainfall — one of the wettest cities in Washington — with an extended wet season from October through June. The capital city's older residential and government-adjacent properties face significant water intrusion and pipe failure risk.",
+            "fire-damage": "Olympia's older residential neighborhoods and historic Capitol campus area contain aging housing stock with elevated fire risk. Dry South Puget Sound summers increase fire risk in surrounding forested areas.",
+            "mold-remediation": "Olympia's extremely wet climate creates persistent mold risk throughout the city. Older homes, state government buildings, and commercial properties all face significant mold challenges in the region's moisture-heavy environment.",
+            "storm-damage": "Olympia experiences Pacific windstorms and atmospheric river events that cause significant roof and structural damage. The city's location at the southern tip of Puget Sound creates exposure to converging storm systems.",
+            "biohazard-cleanup": "Olympia has consistent demand for biohazard, unattended death, and hoarding cleanup services as Washington's state capital and the primary city in Thurston County.",
+            "asbestos-abatement": "Olympia has a significant inventory of pre-1980 housing and government buildings with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout the capital area.",
+            "general-contractor": "Olympia's role as Washington's state capital creates strong demand for licensed general contractors handling insurance reconstruction for both residential properties and government-adjacent commercial buildings.",
+        }
+    },
+    "burien-wa": {
+        "city": "Burien",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Burien's location south of Seattle and adjacent to Puget Sound receives significant annual rainfall throughout the Pacific Northwest wet season. Older residential neighborhoods face water intrusion and pipe failure risk during extended wet weather.",
+            "fire-damage": "Burien's established residential neighborhoods contain older housing stock with aging electrical systems that carry elevated fire risk. The city's suburban character creates a large single-family home restoration market.",
+            "mold-remediation": "Burien's wet climate and older housing stock create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in Burien's established neighborhoods.",
+            "storm-damage": "Burien experiences Pacific windstorms and heavy rainfall events that cause roof and structural damage. The city's Puget Sound proximity amplifies storm impacts in waterfront areas.",
+            "biohazard-cleanup": "Burien has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large residential market near Seattle-Tacoma International Airport.",
+            "asbestos-abatement": "Burien has a large inventory of pre-1980 housing with asbestos in popcorn ceilings, vinyl floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Burien's large residential market creates consistent demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
+    "bothell-wa": {
+        "city": "Bothell",
+        "state": "Washington",
+        "abbrev": "WA",
+        "context": {
+            "water-damage": "Bothell's location on the north end of Lake Washington receives significant annual rainfall throughout the Pacific Northwest wet season. The North Creek and Sammamish River corridors create flood risk for low-lying properties during major storm events.",
+            "fire-damage": "Bothell's mix of older residential neighborhoods and newer development creates diverse fire risk profiles. Older homes in established Bothell neighborhoods carry elevated risk from aging electrical systems.",
+            "mold-remediation": "Bothell's wet climate and mix of housing ages create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in both older and newer Bothell properties.",
+            "storm-damage": "Bothell experiences Pacific windstorms and heavy rainfall that cause roof damage and flooding along creek corridors. The city's tree canopy creates significant storm damage risk during wind events.",
+            "biohazard-cleanup": "Bothell has consistent demand for biohazard, sewage backup, unattended death, and hoarding cleanup services across its growing residential and commercial market.",
+            "asbestos-abatement": "Bothell has older residential neighborhoods with pre-1980 housing containing asbestos in popcorn ceilings, floor tiles, and pipe insulation alongside newer construction.",
+            "general-contractor": "Bothell's growing real estate market creates strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events.",
+        }
+    },
 
+    # ── CALIFORNIA ───────────────────────────────────────────────────────────
+    "los-angeles-ca": {
+        "city": "Los Angeles",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Los Angeles receives sporadic but intense rainfall during its wet season, with atmospheric river events causing catastrophic flooding and water intrusion. The city's vast stock of older homes — many pre-1960 — face significant water damage risk during major rain events after long dry periods when ground cannot absorb water quickly.",
+            "fire-damage": "Los Angeles is one of the nation's highest wildfire risk markets, with devastating fires in the hills, canyons, and wildland-urban interface occurring regularly. Wind-driven fires move rapidly through residential neighborhoods, creating massive insurance restoration demand across LA County.",
+            "mold-remediation": "Los Angeles's aging housing stock and periodic water intrusion events create significant mold risk. Homes that sustain water damage during infrequent but intense rain events often develop mold if not properly dried and remediated quickly.",
+            "storm-damage": "Los Angeles experiences wind-driven storm events including Santa Ana winds, which cause roof damage, downed trees, and structural damage throughout the region. Atmospheric river events cause flooding and mudslides in hillside communities.",
+            "biohazard-cleanup": "Los Angeles has enormous demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its diverse residential and commercial properties. The city's large population creates consistent restoration and cleanup needs.",
+            "asbestos-abatement": "Los Angeles has an enormous inventory of pre-1980 housing and commercial buildings containing asbestos. Popcorn ceilings, floor tiles, pipe insulation, and drywall compound in older LA homes and apartment buildings require professional testing and abatement before any restoration work.",
+            "general-contractor": "Los Angeles is one of the largest insurance reconstruction markets in the country, driven by ongoing wildfire, water, and storm damage events. Licensed general contractors are in constant demand for insurance reconstruction throughout LA County.",
+        }
+    },
+    "san-diego-ca": {
+        "city": "San Diego",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "San Diego's Mediterranean climate brings intense atmospheric river events during the wet season that cause flooding and water intrusion in homes not prepared for heavy rain. Older residential neighborhoods in Mission Hills, North Park, and downtown are particularly vulnerable.",
+            "fire-damage": "San Diego County is one of the highest wildfire risk areas in the United States. Santa Ana wind-driven fires have destroyed thousands of homes in communities like Rancho Bernardo, Scripps Ranch, and Julian. Wildfire insurance restoration is a major market in the San Diego region.",
+            "mold-remediation": "San Diego's older housing stock and periodic water intrusion from atmospheric river events create mold risk. Coastal humidity in waterfront neighborhoods also contributes to mold growth in poorly ventilated older homes.",
+            "storm-damage": "San Diego experiences Santa Ana wind events and atmospheric river storms that cause roof damage, flooding, and mudslides in hillside communities. Storm damage is most severe in canyonside neighborhoods.",
+            "biohazard-cleanup": "San Diego has significant demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its large residential and commercial market.",
+            "asbestos-abatement": "San Diego has a substantial inventory of pre-1980 housing and commercial buildings with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Fire restoration projects in older neighborhoods frequently require asbestos abatement.",
+            "general-contractor": "San Diego's wildfire exposure and large housing market create strong demand for licensed general contractors handling insurance reconstruction after fire, water, and storm damage events throughout the county.",
+        }
+    },
+    "san-jose-ca": {
+        "city": "San Jose",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "San Jose and the Santa Clara Valley experience flooding during atmospheric river events, with the Guadalupe River and Coyote Creek causing significant flood damage in residential areas. The 2017 Coyote Creek flood impacted thousands of homes. Older residential neighborhoods throughout San Jose are vulnerable to water intrusion.",
+            "fire-damage": "San Jose sits adjacent to the Santa Cruz Mountains and Diablo Range with significant wildland-urban interface fire risk. Diablo wind events drive fire conditions that threaten hillside neighborhoods in the city.",
+            "mold-remediation": "San Jose's older housing stock and periodic flooding events create significant mold risk. Silicon Valley's high-value real estate market demands professional mold remediation to protect property values.",
+            "storm-damage": "San Jose experiences atmospheric river events and wind-driven storms that cause flooding, roof damage, and structural impacts throughout the valley. Hillside neighborhoods face landslide risk during heavy rain.",
+            "biohazard-cleanup": "San Jose has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large and diverse residential market.",
+            "asbestos-abatement": "San Jose has a significant inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Silicon Valley's renovation and reconstruction activity frequently requires asbestos abatement.",
+            "general-contractor": "San Jose's high-value real estate market and ongoing exposure to fire, flood, and storm events create strong demand for licensed general contractors managing insurance reconstruction to premium standards.",
+        }
+    },
+    "san-francisco-ca": {
+        "city": "San Francisco",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "San Francisco receives significant winter rainfall and experiences atmospheric river events that cause flooding, water intrusion, and sewer backups throughout the city. The city's aging combined sewer system causes backups in older neighborhoods during heavy rain. Victorian and Edwardian housing stock requires specialized water damage restoration.",
+            "fire-damage": "San Francisco's dense historic housing stock — Victorian and Edwardian row homes — carries elevated fire risk from aging electrical systems and close building proximity. Smoke damage restoration is a major market throughout the city.",
+            "mold-remediation": "San Francisco's coastal fog, winter rainfall, and historic housing stock create persistent mold risk. Poor ventilation in Victorian and Edwardian homes allows mold to establish in wall cavities, basements, and crawl spaces.",
+            "storm-damage": "San Francisco experiences Pacific windstorms and atmospheric river events that cause roof and structural damage throughout the city. Hillside neighborhoods like Twin Peaks and Diamond Heights face elevated storm exposure.",
+            "biohazard-cleanup": "San Francisco has significant demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its dense urban residential and commercial market.",
+            "asbestos-abatement": "San Francisco has an enormous inventory of pre-1980 Victorian and Edwardian buildings with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Every major restoration project in older SF buildings requires asbestos assessment.",
+            "general-contractor": "San Francisco's historic housing stock, high property values, and ongoing exposure to water, fire, and seismic events create one of the most demanding insurance reconstruction markets in California.",
+        }
+    },
+    "fresno-ca": {
+        "city": "Fresno",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Fresno's San Joaquin Valley location brings atmospheric river events that cause flooding and water intrusion in older residential neighborhoods. The city's large stock of aging housing is particularly vulnerable to pipe failures during cold winter freezes.",
+            "fire-damage": "Fresno sits at the gateway to the Sierra Nevada foothills with significant wildfire exposure. Surrounding communities and foothill neighborhoods face regular wildfire threat during California's dry season.",
+            "mold-remediation": "Fresno's periodic flooding and hot humid summers create mold risk in older homes. Post-water damage mold grows rapidly in Central Valley heat if remediation is delayed.",
+            "storm-damage": "Fresno experiences atmospheric river events, valley fog, and occasional wind storms that cause roof and structural damage throughout the metro area. Winter flooding in low-lying areas creates water damage risk.",
+            "biohazard-cleanup": "Fresno has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large residential market as the Central Valley's largest city.",
+            "asbestos-abatement": "Fresno has a large inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Fresno's large residential market and exposure to fire, flood, and storm damage events create strong demand for licensed general contractors handling insurance reconstruction throughout the Central Valley.",
+        }
+    },
+    "sacramento-ca": {
+        "city": "Sacramento",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Sacramento sits at the confluence of the Sacramento and American Rivers and has a long history of flooding. Atmospheric river events create major flood risk for residential neighborhoods throughout the metro area. The city's aging housing stock is particularly vulnerable to water intrusion and pipe failures.",
+            "fire-damage": "Sacramento sits adjacent to the Sierra Nevada foothills with significant wildfire exposure. Surrounding foothill communities face ongoing wildfire risk and smoke intrusion that affects Sacramento properties during California's fire season.",
+            "mold-remediation": "Sacramento's flooding history and hot humid summers create significant mold risk in older homes. Post-flood mold remediation is a major market in the Sacramento Valley following atmospheric river events.",
+            "storm-damage": "Sacramento experiences atmospheric river events and valley wind storms that cause flooding, roof damage, and structural impacts. The Sacramento River and American River flood plains create ongoing storm damage risk.",
+            "biohazard-cleanup": "Sacramento has consistent demand for biohazard, unattended death, and hoarding cleanup services as California's state capital and the Central Valley's second largest city.",
+            "asbestos-abatement": "Sacramento has a large inventory of pre-1980 housing and state government buildings with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. The capital region's renovation market frequently requires asbestos abatement.",
+            "general-contractor": "Sacramento's flood history, wildfire exposure, and large residential market create strong demand for licensed general contractors handling insurance reconstruction throughout the Sacramento Valley.",
+        }
+    },
+    "long-beach-ca": {
+        "city": "Long Beach",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Long Beach's coastal and port location makes it subject to atmospheric river flooding and stormwater backup events. The city's large stock of older bungalows and mid-century housing is vulnerable to water intrusion and pipe failures during wet season events.",
+            "fire-damage": "Long Beach's older residential neighborhoods contain aging housing stock with elevated fire risk from outdated electrical systems. Wind-driven fire conditions during Santa Ana events create fire risk throughout the area.",
+            "mold-remediation": "Long Beach's coastal humidity and older housing stock create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold grows quickly in the city's mild climate if not immediately remediated.",
+            "storm-damage": "Long Beach experiences atmospheric river events and Santa Ana wind conditions that cause flooding, roof damage, and structural impacts in residential neighborhoods.",
+            "biohazard-cleanup": "Long Beach has significant demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its large and diverse urban residential market.",
+            "asbestos-abatement": "Long Beach has an extensive inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Every major restoration project in older Long Beach homes requires asbestos assessment.",
+            "general-contractor": "Long Beach's large residential market and ongoing exposure to water, fire, and storm damage events create strong demand for licensed general contractors managing insurance reconstruction throughout the city.",
+        }
+    },
+    "oakland-ca": {
+        "city": "Oakland",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Oakland's winter rainfall and older housing stock create persistent water intrusion risk. The city's hillside neighborhoods face landslide risk during atmospheric river events. Older flatland neighborhoods with aging sewer infrastructure experience backups during heavy rain.",
+            "fire-damage": "Oakland Hills has experienced catastrophic wildfires, including the 1991 firestorm that destroyed nearly 3,000 homes. The Oakland Hills remain a high wildfire risk zone. Wind-driven fire conditions threaten hillside neighborhoods regularly.",
+            "mold-remediation": "Oakland's coastal fog, winter rainfall, and large inventory of older housing create persistent mold risk. Pre-war housing in West Oakland, Fruitvale, and other flatland neighborhoods is particularly susceptible to mold following water events.",
+            "storm-damage": "Oakland experiences atmospheric river events and Pacific windstorms that cause roof damage, landslides, and flooding in hillside and flatland neighborhoods. The city's aging infrastructure amplifies storm damage impacts.",
+            "biohazard-cleanup": "Oakland has significant demand for biohazard, unattended death, crime scene, and hoarding cleanup services across its diverse urban residential and commercial market.",
+            "asbestos-abatement": "Oakland has an extensive inventory of pre-1980 housing and commercial buildings with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. Oakland's active renovation and restoration market requires frequent asbestos abatement.",
+            "general-contractor": "Oakland's fire history, flooding risk, and large stock of older housing create one of the Bay Area's strongest markets for licensed general contractors managing insurance reconstruction.",
+        }
+    },
+    "bakersfield-ca": {
+        "city": "Bakersfield",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Bakersfield's San Joaquin Valley location brings sporadic but intense atmospheric river events that cause flooding and water intrusion in residential neighborhoods. Hard winter freezes cause pipe bursts in older housing stock throughout the city.",
+            "fire-damage": "Bakersfield sits near the Tehachapi Mountains and foothills with significant wildfire risk during California's dry season. Surrounding agricultural and foothill areas create fire exposure for residential properties on the city's edges.",
+            "mold-remediation": "Bakersfield's periodic flooding and hot Central Valley summers create significant mold risk. Post-water damage mold grows rapidly in extreme heat if remediation is delayed, making immediate response critical.",
+            "storm-damage": "Bakersfield experiences atmospheric river events and wind storms that cause flooding, roof damage, and structural impacts. Valley floor flooding during major rain events creates water damage risk for low-lying neighborhoods.",
+            "biohazard-cleanup": "Bakersfield has consistent demand for biohazard, unattended death, and hoarding cleanup services as Kern County's largest city and the central hub for California's oil country.",
+            "asbestos-abatement": "Bakersfield has a large inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Bakersfield's large residential market and exposure to fire, flood, and storm damage events create strong demand for licensed general contractors handling insurance reconstruction throughout Kern County.",
+        }
+    },
+    "anaheim-ca": {
+        "city": "Anaheim",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Anaheim's Orange County location experiences atmospheric river flooding events that cause water intrusion and sewer backups in older residential neighborhoods. The city's aging housing stock is vulnerable to pipe failures and water damage during wet season events.",
+            "fire-damage": "Anaheim Hills and the city's eastern foothills face significant wildfire risk during Santa Ana wind events. Wind-driven fires have threatened Anaheim residential neighborhoods on multiple occasions.",
+            "mold-remediation": "Anaheim's coastal proximity and older housing stock create mold risk following water damage events. Post-water damage mold grows quickly in Southern California's mild climate if not immediately remediated.",
+            "storm-damage": "Anaheim experiences atmospheric river events and Santa Ana wind conditions that cause flooding, roof damage, and structural impacts in both flatland and hillside neighborhoods.",
+            "biohazard-cleanup": "Anaheim has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large residential and commercial market as Orange County's largest city.",
+            "asbestos-abatement": "Anaheim has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Anaheim's large residential market and wildfire exposure create strong demand for licensed general contractors handling insurance reconstruction throughout Orange County.",
+        }
+    },
+    "santa-ana-ca": {
+        "city": "Santa Ana",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Santa Ana's dense urban location in Orange County experiences atmospheric river flooding that causes water intrusion and sewer backups in older residential neighborhoods. The city's large stock of older housing is particularly vulnerable to water damage.",
+            "fire-damage": "Santa Ana's position in the path of Santa Ana wind events creates significant fire risk. The strong seasonal winds that bear the city's name drive fire conditions that threaten residential neighborhoods throughout Orange County.",
+            "mold-remediation": "Santa Ana's older, densely packed housing stock and periodic water intrusion events create significant mold risk. Post-water damage mold grows rapidly in Southern California's mild climate if remediation is delayed.",
+            "storm-damage": "Santa Ana experiences atmospheric river events and its namesake wind conditions that cause flooding, roof damage, and structural impacts in residential neighborhoods throughout the city.",
+            "biohazard-cleanup": "Santa Ana has significant demand for biohazard, unattended death, and hoarding cleanup services across its densely populated urban residential market.",
+            "asbestos-abatement": "Santa Ana has an extensive inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound. The city's older housing stock frequently requires asbestos testing and abatement before restoration work.",
+            "general-contractor": "Santa Ana's large residential market and exposure to water, fire, and storm damage events create strong demand for licensed general contractors handling insurance reconstruction throughout Orange County.",
+        }
+    },
+    "riverside-ca": {
+        "city": "Riverside",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Riverside's Inland Empire location experiences atmospheric river flooding events that cause significant water intrusion in residential neighborhoods. The Santa Ana River creates flood risk for low-lying properties. Cold winter temperatures cause pipe bursts in older housing.",
+            "fire-damage": "Riverside sits in the Inland Empire at the edge of Southern California's high wildfire risk zone. Wind-driven fires during Santa Ana conditions have threatened Riverside neighborhoods. The city's foothills and surrounding areas create ongoing fire exposure.",
+            "mold-remediation": "Riverside's periodic flooding and hot Inland Empire summers create mold risk in older homes. Post-water damage mold grows rapidly in extreme heat if remediation is not immediate.",
+            "storm-damage": "Riverside experiences atmospheric river events and Santa Ana wind conditions that cause flooding, roof damage, and structural impacts throughout the Inland Empire metro area.",
+            "biohazard-cleanup": "Riverside has consistent demand for biohazard, unattended death, and hoarding cleanup services as the Inland Empire's primary city and the seat of Riverside County.",
+            "asbestos-abatement": "Riverside has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Riverside's large residential market and exposure to fire, flood, and storm damage events create strong demand for licensed general contractors handling insurance reconstruction throughout the Inland Empire.",
+        }
+    },
+    "stockton-ca": {
+        "city": "Stockton",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Stockton's San Joaquin Delta location creates significant flood risk. Atmospheric river events cause major flooding in low-lying residential areas. The Delta's complex waterway system creates ongoing water intrusion risk for properties throughout the city.",
+            "fire-damage": "Stockton sits near the Sierra Nevada foothills with wildfire exposure during California's dry season. Surrounding agricultural areas and foothill communities create fire risk that affects Stockton's eastern residential neighborhoods.",
+            "mold-remediation": "Stockton's flooding history and hot Central Valley summers create significant mold risk. Post-flood mold remediation is a major market following atmospheric river events, and Central Valley heat accelerates mold growth dramatically.",
+            "storm-damage": "Stockton experiences atmospheric river flooding and wind events that cause significant damage in low-lying residential neighborhoods. Delta flooding during major storms creates water damage risk across wide residential areas.",
+            "biohazard-cleanup": "Stockton has consistent demand for biohazard, unattended death, and hoarding cleanup services as the Central Valley's third largest city and San Joaquin County's seat.",
+            "asbestos-abatement": "Stockton has a large inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Stockton's flood history and large residential market create strong demand for licensed general contractors handling insurance reconstruction after the region's frequent water and storm damage events.",
+        }
+    },
+    "chula-vista-ca": {
+        "city": "Chula Vista",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Chula Vista's location in South San Diego County experiences atmospheric river events that cause flooding and water intrusion in residential neighborhoods. The city's rapid growth includes both older housing and new construction vulnerable to water damage.",
+            "fire-damage": "Chula Vista's eastern foothills face wildfire risk during Santa Ana wind events. The city's wildland-urban interface creates fire exposure for residential developments on the eastern edge of the city.",
+            "mold-remediation": "Chula Vista's coastal proximity and periodic water intrusion events create mold risk in older and newer homes. Post-water damage mold grows quickly in Southern California's mild climate.",
+            "storm-damage": "Chula Vista experiences atmospheric river events and Santa Ana wind conditions that cause flooding, roof damage, and structural impacts in residential neighborhoods.",
+            "biohazard-cleanup": "Chula Vista has consistent demand for biohazard, unattended death, and hoarding cleanup services as San Diego County's second largest city with a rapidly growing residential market.",
+            "asbestos-abatement": "Chula Vista has pre-1980 housing in its established western neighborhoods with asbestos in popcorn ceilings, floor tiles, and pipe insulation alongside newer construction in eastern developments.",
+            "general-contractor": "Chula Vista's rapidly growing residential market creates strong demand for licensed general contractors handling insurance reconstruction after water, fire, and storm damage events in San Diego's South Bay.",
+        }
+    },
+    "fremont-ca": {
+        "city": "Fremont",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Fremont's East Bay location experiences atmospheric river flooding events that cause water intrusion in residential neighborhoods. The city's proximity to San Francisco Bay creates flood risk in low-lying areas, and older housing in established neighborhoods is vulnerable to water damage.",
+            "fire-damage": "Fremont's Mission Hills and Niles Canyon areas sit in the wildland-urban interface with significant wildfire risk during dry season wind events. The Diablo Range creates ongoing fire exposure for eastern Fremont neighborhoods.",
+            "mold-remediation": "Fremont's coastal Bay Area climate and older housing stock create persistent mold risk in crawl spaces and wall cavities. Post-water damage mold is a common issue in the city's established residential neighborhoods.",
+            "storm-damage": "Fremont experiences atmospheric river events and wind storms that cause flooding, roof damage, and structural impacts throughout the city. Bay-adjacent low-lying areas face elevated flood risk.",
+            "biohazard-cleanup": "Fremont has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large and diverse residential market in the South Bay.",
+            "asbestos-abatement": "Fremont has a substantial inventory of pre-1980 housing with asbestos in popcorn ceilings, floor tiles, pipe insulation, and drywall compound throughout its established residential neighborhoods.",
+            "general-contractor": "Fremont's large residential market and exposure to fire, flood, and storm damage events create strong demand for licensed general contractors managing insurance reconstruction throughout the East Bay.",
+        }
+    },
+    "irvine-ca": {
+        "city": "Irvine",
+        "state": "California",
+        "abbrev": "CA",
+        "context": {
+            "water-damage": "Irvine's planned community design includes extensive drainage infrastructure, but atmospheric river events still cause flooding and water intrusion in residential neighborhoods. Older sections of Irvine face pipe failure risk during wet season events.",
+            "fire-damage": "Irvine sits adjacent to the Santa Ana Mountains and Laguna Coast with significant wildfire risk during Santa Ana wind events. Wind-driven fires have threatened Irvine residential neighborhoods and the city's wildland-urban interface creates ongoing fire exposure.",
+            "mold-remediation": "Irvine's coastal proximity and periodic water intrusion events create mold risk in both older and newer homes. High-value Irvine properties require professional mold remediation to protect significant real estate values.",
+            "storm-damage": "Irvine experiences atmospheric river events and Santa Ana wind conditions that cause flooding, roof damage, and structural impacts in residential communities throughout the planned city.",
+            "biohazard-cleanup": "Irvine has consistent demand for biohazard, unattended death, and hoarding cleanup services across its large and affluent residential market.",
+            "asbestos-abatement": "Irvine's older residential sections contain pre-1980 housing with asbestos in popcorn ceilings, floor tiles, and pipe insulation. Restoration and renovation projects in older Irvine communities require asbestos assessment.",
+            "general-contractor": "Irvine's high-value real estate market and wildfire exposure create strong demand for licensed general contractors managing insurance reconstruction to premium standards after fire, water, and storm damage events.",
+        }
+    },
+}
 # ─── PAGE BUILDERS ───────────────────────────────────────────────────────────
 
 def build_national_page(svc_key):
@@ -1068,6 +1718,12 @@ def build_city_page(svc_key, city_key):
         for i, (q, a) in enumerate(s["faqs"])
     ])
 
+    # HowTo steps from expect_steps
+    howto_steps = "\n".join([
+        f'''      {{"@type":"HowToStep","position":{i+1},"name":{repr(h)},"text":{repr(p)}}}{"," if i < len(s["expect_steps"])-1 else ""}'''
+        for i, (h, p) in enumerate(s["expect_steps"])
+    ])
+
     schema = f"""<script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -1101,9 +1757,17 @@ def build_city_page(svc_key, city_key):
       ]
     }},
     {{
+      "@type": "HowTo",
+      "name": "How to Get {s['name']} in {city}, {abbrev}",
+      "description": "How Guardian Restoration Network confirms your coverage, manages your insurance carrier, and dispatches vetted local contractors for {s['name'].lower()} in {city}, {abbrev}.",
+      "step": [
+{howto_steps}
+      ]
+    }},
+    {{
       "@type": "SpeakableSpecification",
       "@id": "{canonical}#speakable",
-      "cssSelector": [".hero h1", ".hero-sub", ".section-title"]
+      "cssSelector": [".hero h1", ".hero-sub", ".section-title", ".faq-q"]
     }}
   ]
 }}
