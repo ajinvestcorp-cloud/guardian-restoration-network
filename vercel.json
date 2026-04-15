@@ -5,22 +5,6 @@
       "dest": "/grn-homepage-v7.html"
     },
     {
-      "src": "^/how-it-works/?$",
-      "dest": "/grn-how-it-works-v1.html"
-    },
-    {
-      "src": "^/about/?$",
-      "dest": "/grn-about-v1.html"
-    },
-    {
-      "src": "^/services/?$",
-      "dest": "/grn-services-v2.html"
-    },
-    {
-      "src": "^/contact/?$",
-      "dest": "/grn-contact-v4.html"
-    },
-    {
       "src": "^/water-damage-restoration/?$",
       "dest": "/grn-water-damage-v1.html"
     },
@@ -53,56 +37,1344 @@
       "dest": "/grn-water-damage-restoration-portland-or-v1.html"
     },
     {
+      "src": "^/water-damage-restoration-salem-or/?$",
+      "dest": "/grn-water-damage-restoration-salem-or-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-eugene-or/?$",
+      "dest": "/grn-water-damage-restoration-eugene-or-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-bend-or/?$",
+      "dest": "/grn-water-damage-restoration-bend-or-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-medford-or/?$",
+      "dest": "/grn-water-damage-restoration-medford-or-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-corvallis-or/?$",
+      "dest": "/grn-water-damage-restoration-corvallis-or-v1.html"
+    },
+    {
       "src": "^/water-damage-restoration-seattle-wa/?$",
       "dest": "/grn-water-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-spokane-wa/?$",
+      "dest": "/grn-water-damage-restoration-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-tacoma-wa/?$",
+      "dest": "/grn-water-damage-restoration-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-vancouver-wa/?$",
+      "dest": "/grn-water-damage-restoration-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-bellevue-wa/?$",
+      "dest": "/grn-water-damage-restoration-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-kent-wa/?$",
+      "dest": "/grn-water-damage-restoration-kent-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-everett-wa/?$",
+      "dest": "/grn-water-damage-restoration-everett-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-spokane-valley-wa/?$",
+      "dest": "/grn-water-damage-restoration-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-renton-wa/?$",
+      "dest": "/grn-water-damage-restoration-renton-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-federal-way-wa/?$",
+      "dest": "/grn-water-damage-restoration-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-yakima-wa/?$",
+      "dest": "/grn-water-damage-restoration-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-bellingham-wa/?$",
+      "dest": "/grn-water-damage-restoration-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-kirkland-wa/?$",
+      "dest": "/grn-water-damage-restoration-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-kennewick-wa/?$",
+      "dest": "/grn-water-damage-restoration-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-auburn-wa/?$",
+      "dest": "/grn-water-damage-restoration-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-redmond-wa/?$",
+      "dest": "/grn-water-damage-restoration-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-pasco-wa/?$",
+      "dest": "/grn-water-damage-restoration-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-marysville-wa/?$",
+      "dest": "/grn-water-damage-restoration-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-sammamish-wa/?$",
+      "dest": "/grn-water-damage-restoration-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-richland-wa/?$",
+      "dest": "/grn-water-damage-restoration-richland-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-lakewood-wa/?$",
+      "dest": "/grn-water-damage-restoration-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-shoreline-wa/?$",
+      "dest": "/grn-water-damage-restoration-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-lacey-wa/?$",
+      "dest": "/grn-water-damage-restoration-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-olympia-wa/?$",
+      "dest": "/grn-water-damage-restoration-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-burien-wa/?$",
+      "dest": "/grn-water-damage-restoration-burien-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-bothell-wa/?$",
+      "dest": "/grn-water-damage-restoration-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-los-angeles-ca/?$",
+      "dest": "/grn-water-damage-restoration-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-san-diego-ca/?$",
+      "dest": "/grn-water-damage-restoration-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-san-jose-ca/?$",
+      "dest": "/grn-water-damage-restoration-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-san-francisco-ca/?$",
+      "dest": "/grn-water-damage-restoration-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-fresno-ca/?$",
+      "dest": "/grn-water-damage-restoration-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-sacramento-ca/?$",
+      "dest": "/grn-water-damage-restoration-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-long-beach-ca/?$",
+      "dest": "/grn-water-damage-restoration-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-oakland-ca/?$",
+      "dest": "/grn-water-damage-restoration-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-bakersfield-ca/?$",
+      "dest": "/grn-water-damage-restoration-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-anaheim-ca/?$",
+      "dest": "/grn-water-damage-restoration-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-santa-ana-ca/?$",
+      "dest": "/grn-water-damage-restoration-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-riverside-ca/?$",
+      "dest": "/grn-water-damage-restoration-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-stockton-ca/?$",
+      "dest": "/grn-water-damage-restoration-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-chula-vista-ca/?$",
+      "dest": "/grn-water-damage-restoration-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-fremont-ca/?$",
+      "dest": "/grn-water-damage-restoration-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-irvine-ca/?$",
+      "dest": "/grn-water-damage-restoration-irvine-ca-v1.html"
     },
     {
       "src": "^/fire-damage-restoration-portland-or/?$",
       "dest": "/grn-fire-damage-restoration-portland-or-v1.html"
     },
     {
+      "src": "^/fire-damage-restoration-salem-or/?$",
+      "dest": "/grn-fire-damage-restoration-salem-or-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-eugene-or/?$",
+      "dest": "/grn-fire-damage-restoration-eugene-or-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-bend-or/?$",
+      "dest": "/grn-fire-damage-restoration-bend-or-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-medford-or/?$",
+      "dest": "/grn-fire-damage-restoration-medford-or-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-corvallis-or/?$",
+      "dest": "/grn-fire-damage-restoration-corvallis-or-v1.html"
+    },
+    {
       "src": "^/fire-damage-restoration-seattle-wa/?$",
       "dest": "/grn-fire-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-spokane-wa/?$",
+      "dest": "/grn-fire-damage-restoration-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-tacoma-wa/?$",
+      "dest": "/grn-fire-damage-restoration-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-vancouver-wa/?$",
+      "dest": "/grn-fire-damage-restoration-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-bellevue-wa/?$",
+      "dest": "/grn-fire-damage-restoration-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-kent-wa/?$",
+      "dest": "/grn-fire-damage-restoration-kent-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-everett-wa/?$",
+      "dest": "/grn-fire-damage-restoration-everett-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-spokane-valley-wa/?$",
+      "dest": "/grn-fire-damage-restoration-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-renton-wa/?$",
+      "dest": "/grn-fire-damage-restoration-renton-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-federal-way-wa/?$",
+      "dest": "/grn-fire-damage-restoration-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-yakima-wa/?$",
+      "dest": "/grn-fire-damage-restoration-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-bellingham-wa/?$",
+      "dest": "/grn-fire-damage-restoration-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-kirkland-wa/?$",
+      "dest": "/grn-fire-damage-restoration-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-kennewick-wa/?$",
+      "dest": "/grn-fire-damage-restoration-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-auburn-wa/?$",
+      "dest": "/grn-fire-damage-restoration-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-redmond-wa/?$",
+      "dest": "/grn-fire-damage-restoration-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-pasco-wa/?$",
+      "dest": "/grn-fire-damage-restoration-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-marysville-wa/?$",
+      "dest": "/grn-fire-damage-restoration-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-sammamish-wa/?$",
+      "dest": "/grn-fire-damage-restoration-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-richland-wa/?$",
+      "dest": "/grn-fire-damage-restoration-richland-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-lakewood-wa/?$",
+      "dest": "/grn-fire-damage-restoration-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-shoreline-wa/?$",
+      "dest": "/grn-fire-damage-restoration-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-lacey-wa/?$",
+      "dest": "/grn-fire-damage-restoration-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-olympia-wa/?$",
+      "dest": "/grn-fire-damage-restoration-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-burien-wa/?$",
+      "dest": "/grn-fire-damage-restoration-burien-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-bothell-wa/?$",
+      "dest": "/grn-fire-damage-restoration-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-los-angeles-ca/?$",
+      "dest": "/grn-fire-damage-restoration-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-san-diego-ca/?$",
+      "dest": "/grn-fire-damage-restoration-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-san-jose-ca/?$",
+      "dest": "/grn-fire-damage-restoration-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-san-francisco-ca/?$",
+      "dest": "/grn-fire-damage-restoration-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-fresno-ca/?$",
+      "dest": "/grn-fire-damage-restoration-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-sacramento-ca/?$",
+      "dest": "/grn-fire-damage-restoration-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-long-beach-ca/?$",
+      "dest": "/grn-fire-damage-restoration-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-oakland-ca/?$",
+      "dest": "/grn-fire-damage-restoration-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-bakersfield-ca/?$",
+      "dest": "/grn-fire-damage-restoration-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-anaheim-ca/?$",
+      "dest": "/grn-fire-damage-restoration-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-santa-ana-ca/?$",
+      "dest": "/grn-fire-damage-restoration-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-riverside-ca/?$",
+      "dest": "/grn-fire-damage-restoration-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-stockton-ca/?$",
+      "dest": "/grn-fire-damage-restoration-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-chula-vista-ca/?$",
+      "dest": "/grn-fire-damage-restoration-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-fremont-ca/?$",
+      "dest": "/grn-fire-damage-restoration-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-irvine-ca/?$",
+      "dest": "/grn-fire-damage-restoration-irvine-ca-v1.html"
     },
     {
       "src": "^/mold-remediation-portland-or/?$",
       "dest": "/grn-mold-remediation-portland-or-v1.html"
     },
     {
+      "src": "^/mold-remediation-salem-or/?$",
+      "dest": "/grn-mold-remediation-salem-or-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-eugene-or/?$",
+      "dest": "/grn-mold-remediation-eugene-or-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-bend-or/?$",
+      "dest": "/grn-mold-remediation-bend-or-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-medford-or/?$",
+      "dest": "/grn-mold-remediation-medford-or-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-corvallis-or/?$",
+      "dest": "/grn-mold-remediation-corvallis-or-v1.html"
+    },
+    {
       "src": "^/mold-remediation-seattle-wa/?$",
       "dest": "/grn-mold-remediation-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-spokane-wa/?$",
+      "dest": "/grn-mold-remediation-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-tacoma-wa/?$",
+      "dest": "/grn-mold-remediation-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-vancouver-wa/?$",
+      "dest": "/grn-mold-remediation-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-bellevue-wa/?$",
+      "dest": "/grn-mold-remediation-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-kent-wa/?$",
+      "dest": "/grn-mold-remediation-kent-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-everett-wa/?$",
+      "dest": "/grn-mold-remediation-everett-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-spokane-valley-wa/?$",
+      "dest": "/grn-mold-remediation-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-renton-wa/?$",
+      "dest": "/grn-mold-remediation-renton-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-federal-way-wa/?$",
+      "dest": "/grn-mold-remediation-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-yakima-wa/?$",
+      "dest": "/grn-mold-remediation-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-bellingham-wa/?$",
+      "dest": "/grn-mold-remediation-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-kirkland-wa/?$",
+      "dest": "/grn-mold-remediation-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-kennewick-wa/?$",
+      "dest": "/grn-mold-remediation-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-auburn-wa/?$",
+      "dest": "/grn-mold-remediation-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-redmond-wa/?$",
+      "dest": "/grn-mold-remediation-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-pasco-wa/?$",
+      "dest": "/grn-mold-remediation-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-marysville-wa/?$",
+      "dest": "/grn-mold-remediation-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-sammamish-wa/?$",
+      "dest": "/grn-mold-remediation-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-richland-wa/?$",
+      "dest": "/grn-mold-remediation-richland-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-lakewood-wa/?$",
+      "dest": "/grn-mold-remediation-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-shoreline-wa/?$",
+      "dest": "/grn-mold-remediation-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-lacey-wa/?$",
+      "dest": "/grn-mold-remediation-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-olympia-wa/?$",
+      "dest": "/grn-mold-remediation-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-burien-wa/?$",
+      "dest": "/grn-mold-remediation-burien-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-bothell-wa/?$",
+      "dest": "/grn-mold-remediation-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-los-angeles-ca/?$",
+      "dest": "/grn-mold-remediation-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-san-diego-ca/?$",
+      "dest": "/grn-mold-remediation-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-san-jose-ca/?$",
+      "dest": "/grn-mold-remediation-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-san-francisco-ca/?$",
+      "dest": "/grn-mold-remediation-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-fresno-ca/?$",
+      "dest": "/grn-mold-remediation-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-sacramento-ca/?$",
+      "dest": "/grn-mold-remediation-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-long-beach-ca/?$",
+      "dest": "/grn-mold-remediation-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-oakland-ca/?$",
+      "dest": "/grn-mold-remediation-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-bakersfield-ca/?$",
+      "dest": "/grn-mold-remediation-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-anaheim-ca/?$",
+      "dest": "/grn-mold-remediation-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-santa-ana-ca/?$",
+      "dest": "/grn-mold-remediation-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-riverside-ca/?$",
+      "dest": "/grn-mold-remediation-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-stockton-ca/?$",
+      "dest": "/grn-mold-remediation-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-chula-vista-ca/?$",
+      "dest": "/grn-mold-remediation-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-fremont-ca/?$",
+      "dest": "/grn-mold-remediation-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-irvine-ca/?$",
+      "dest": "/grn-mold-remediation-irvine-ca-v1.html"
     },
     {
       "src": "^/storm-damage-restoration-portland-or/?$",
       "dest": "/grn-storm-damage-restoration-portland-or-v1.html"
     },
     {
+      "src": "^/storm-damage-restoration-salem-or/?$",
+      "dest": "/grn-storm-damage-restoration-salem-or-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-eugene-or/?$",
+      "dest": "/grn-storm-damage-restoration-eugene-or-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-bend-or/?$",
+      "dest": "/grn-storm-damage-restoration-bend-or-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-medford-or/?$",
+      "dest": "/grn-storm-damage-restoration-medford-or-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-corvallis-or/?$",
+      "dest": "/grn-storm-damage-restoration-corvallis-or-v1.html"
+    },
+    {
       "src": "^/storm-damage-restoration-seattle-wa/?$",
       "dest": "/grn-storm-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-spokane-wa/?$",
+      "dest": "/grn-storm-damage-restoration-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-tacoma-wa/?$",
+      "dest": "/grn-storm-damage-restoration-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-vancouver-wa/?$",
+      "dest": "/grn-storm-damage-restoration-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-bellevue-wa/?$",
+      "dest": "/grn-storm-damage-restoration-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-kent-wa/?$",
+      "dest": "/grn-storm-damage-restoration-kent-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-everett-wa/?$",
+      "dest": "/grn-storm-damage-restoration-everett-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-spokane-valley-wa/?$",
+      "dest": "/grn-storm-damage-restoration-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-renton-wa/?$",
+      "dest": "/grn-storm-damage-restoration-renton-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-federal-way-wa/?$",
+      "dest": "/grn-storm-damage-restoration-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-yakima-wa/?$",
+      "dest": "/grn-storm-damage-restoration-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-bellingham-wa/?$",
+      "dest": "/grn-storm-damage-restoration-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-kirkland-wa/?$",
+      "dest": "/grn-storm-damage-restoration-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-kennewick-wa/?$",
+      "dest": "/grn-storm-damage-restoration-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-auburn-wa/?$",
+      "dest": "/grn-storm-damage-restoration-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-redmond-wa/?$",
+      "dest": "/grn-storm-damage-restoration-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-pasco-wa/?$",
+      "dest": "/grn-storm-damage-restoration-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-marysville-wa/?$",
+      "dest": "/grn-storm-damage-restoration-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-sammamish-wa/?$",
+      "dest": "/grn-storm-damage-restoration-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-richland-wa/?$",
+      "dest": "/grn-storm-damage-restoration-richland-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-lakewood-wa/?$",
+      "dest": "/grn-storm-damage-restoration-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-shoreline-wa/?$",
+      "dest": "/grn-storm-damage-restoration-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-lacey-wa/?$",
+      "dest": "/grn-storm-damage-restoration-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-olympia-wa/?$",
+      "dest": "/grn-storm-damage-restoration-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-burien-wa/?$",
+      "dest": "/grn-storm-damage-restoration-burien-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-bothell-wa/?$",
+      "dest": "/grn-storm-damage-restoration-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-los-angeles-ca/?$",
+      "dest": "/grn-storm-damage-restoration-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-san-diego-ca/?$",
+      "dest": "/grn-storm-damage-restoration-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-san-jose-ca/?$",
+      "dest": "/grn-storm-damage-restoration-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-san-francisco-ca/?$",
+      "dest": "/grn-storm-damage-restoration-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-fresno-ca/?$",
+      "dest": "/grn-storm-damage-restoration-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-sacramento-ca/?$",
+      "dest": "/grn-storm-damage-restoration-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-long-beach-ca/?$",
+      "dest": "/grn-storm-damage-restoration-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-oakland-ca/?$",
+      "dest": "/grn-storm-damage-restoration-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-bakersfield-ca/?$",
+      "dest": "/grn-storm-damage-restoration-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-anaheim-ca/?$",
+      "dest": "/grn-storm-damage-restoration-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-santa-ana-ca/?$",
+      "dest": "/grn-storm-damage-restoration-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-riverside-ca/?$",
+      "dest": "/grn-storm-damage-restoration-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-stockton-ca/?$",
+      "dest": "/grn-storm-damage-restoration-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-chula-vista-ca/?$",
+      "dest": "/grn-storm-damage-restoration-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-fremont-ca/?$",
+      "dest": "/grn-storm-damage-restoration-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-irvine-ca/?$",
+      "dest": "/grn-storm-damage-restoration-irvine-ca-v1.html"
     },
     {
       "src": "^/sewage-cleanup-portland-or/?$",
       "dest": "/grn-sewage-cleanup-portland-or-v1.html"
     },
     {
+      "src": "^/sewage-cleanup-salem-or/?$",
+      "dest": "/grn-sewage-cleanup-salem-or-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-eugene-or/?$",
+      "dest": "/grn-sewage-cleanup-eugene-or-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-bend-or/?$",
+      "dest": "/grn-sewage-cleanup-bend-or-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-medford-or/?$",
+      "dest": "/grn-sewage-cleanup-medford-or-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-corvallis-or/?$",
+      "dest": "/grn-sewage-cleanup-corvallis-or-v1.html"
+    },
+    {
       "src": "^/sewage-cleanup-seattle-wa/?$",
       "dest": "/grn-sewage-cleanup-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-spokane-wa/?$",
+      "dest": "/grn-sewage-cleanup-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-tacoma-wa/?$",
+      "dest": "/grn-sewage-cleanup-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-vancouver-wa/?$",
+      "dest": "/grn-sewage-cleanup-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-bellevue-wa/?$",
+      "dest": "/grn-sewage-cleanup-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-kent-wa/?$",
+      "dest": "/grn-sewage-cleanup-kent-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-everett-wa/?$",
+      "dest": "/grn-sewage-cleanup-everett-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-spokane-valley-wa/?$",
+      "dest": "/grn-sewage-cleanup-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-renton-wa/?$",
+      "dest": "/grn-sewage-cleanup-renton-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-federal-way-wa/?$",
+      "dest": "/grn-sewage-cleanup-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-yakima-wa/?$",
+      "dest": "/grn-sewage-cleanup-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-bellingham-wa/?$",
+      "dest": "/grn-sewage-cleanup-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-kirkland-wa/?$",
+      "dest": "/grn-sewage-cleanup-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-kennewick-wa/?$",
+      "dest": "/grn-sewage-cleanup-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-auburn-wa/?$",
+      "dest": "/grn-sewage-cleanup-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-redmond-wa/?$",
+      "dest": "/grn-sewage-cleanup-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-pasco-wa/?$",
+      "dest": "/grn-sewage-cleanup-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-marysville-wa/?$",
+      "dest": "/grn-sewage-cleanup-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-sammamish-wa/?$",
+      "dest": "/grn-sewage-cleanup-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-richland-wa/?$",
+      "dest": "/grn-sewage-cleanup-richland-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-lakewood-wa/?$",
+      "dest": "/grn-sewage-cleanup-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-shoreline-wa/?$",
+      "dest": "/grn-sewage-cleanup-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-lacey-wa/?$",
+      "dest": "/grn-sewage-cleanup-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-olympia-wa/?$",
+      "dest": "/grn-sewage-cleanup-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-burien-wa/?$",
+      "dest": "/grn-sewage-cleanup-burien-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-bothell-wa/?$",
+      "dest": "/grn-sewage-cleanup-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-los-angeles-ca/?$",
+      "dest": "/grn-sewage-cleanup-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-san-diego-ca/?$",
+      "dest": "/grn-sewage-cleanup-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-san-jose-ca/?$",
+      "dest": "/grn-sewage-cleanup-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-san-francisco-ca/?$",
+      "dest": "/grn-sewage-cleanup-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-fresno-ca/?$",
+      "dest": "/grn-sewage-cleanup-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-sacramento-ca/?$",
+      "dest": "/grn-sewage-cleanup-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-long-beach-ca/?$",
+      "dest": "/grn-sewage-cleanup-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-oakland-ca/?$",
+      "dest": "/grn-sewage-cleanup-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-bakersfield-ca/?$",
+      "dest": "/grn-sewage-cleanup-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-anaheim-ca/?$",
+      "dest": "/grn-sewage-cleanup-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-santa-ana-ca/?$",
+      "dest": "/grn-sewage-cleanup-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-riverside-ca/?$",
+      "dest": "/grn-sewage-cleanup-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-stockton-ca/?$",
+      "dest": "/grn-sewage-cleanup-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-chula-vista-ca/?$",
+      "dest": "/grn-sewage-cleanup-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-fremont-ca/?$",
+      "dest": "/grn-sewage-cleanup-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-irvine-ca/?$",
+      "dest": "/grn-sewage-cleanup-irvine-ca-v1.html"
     },
     {
       "src": "^/asbestos-removal-portland-or/?$",
       "dest": "/grn-asbestos-removal-portland-or-v1.html"
     },
     {
+      "src": "^/asbestos-removal-salem-or/?$",
+      "dest": "/grn-asbestos-removal-salem-or-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-eugene-or/?$",
+      "dest": "/grn-asbestos-removal-eugene-or-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-bend-or/?$",
+      "dest": "/grn-asbestos-removal-bend-or-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-medford-or/?$",
+      "dest": "/grn-asbestos-removal-medford-or-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-corvallis-or/?$",
+      "dest": "/grn-asbestos-removal-corvallis-or-v1.html"
+    },
+    {
       "src": "^/asbestos-removal-seattle-wa/?$",
       "dest": "/grn-asbestos-removal-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-spokane-wa/?$",
+      "dest": "/grn-asbestos-removal-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-tacoma-wa/?$",
+      "dest": "/grn-asbestos-removal-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-vancouver-wa/?$",
+      "dest": "/grn-asbestos-removal-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-bellevue-wa/?$",
+      "dest": "/grn-asbestos-removal-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-kent-wa/?$",
+      "dest": "/grn-asbestos-removal-kent-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-everett-wa/?$",
+      "dest": "/grn-asbestos-removal-everett-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-spokane-valley-wa/?$",
+      "dest": "/grn-asbestos-removal-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-renton-wa/?$",
+      "dest": "/grn-asbestos-removal-renton-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-federal-way-wa/?$",
+      "dest": "/grn-asbestos-removal-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-yakima-wa/?$",
+      "dest": "/grn-asbestos-removal-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-bellingham-wa/?$",
+      "dest": "/grn-asbestos-removal-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-kirkland-wa/?$",
+      "dest": "/grn-asbestos-removal-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-kennewick-wa/?$",
+      "dest": "/grn-asbestos-removal-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-auburn-wa/?$",
+      "dest": "/grn-asbestos-removal-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-redmond-wa/?$",
+      "dest": "/grn-asbestos-removal-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-pasco-wa/?$",
+      "dest": "/grn-asbestos-removal-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-marysville-wa/?$",
+      "dest": "/grn-asbestos-removal-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-sammamish-wa/?$",
+      "dest": "/grn-asbestos-removal-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-richland-wa/?$",
+      "dest": "/grn-asbestos-removal-richland-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-lakewood-wa/?$",
+      "dest": "/grn-asbestos-removal-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-shoreline-wa/?$",
+      "dest": "/grn-asbestos-removal-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-lacey-wa/?$",
+      "dest": "/grn-asbestos-removal-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-olympia-wa/?$",
+      "dest": "/grn-asbestos-removal-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-burien-wa/?$",
+      "dest": "/grn-asbestos-removal-burien-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-bothell-wa/?$",
+      "dest": "/grn-asbestos-removal-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-los-angeles-ca/?$",
+      "dest": "/grn-asbestos-removal-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-san-diego-ca/?$",
+      "dest": "/grn-asbestos-removal-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-san-jose-ca/?$",
+      "dest": "/grn-asbestos-removal-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-san-francisco-ca/?$",
+      "dest": "/grn-asbestos-removal-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-fresno-ca/?$",
+      "dest": "/grn-asbestos-removal-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-sacramento-ca/?$",
+      "dest": "/grn-asbestos-removal-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-long-beach-ca/?$",
+      "dest": "/grn-asbestos-removal-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-oakland-ca/?$",
+      "dest": "/grn-asbestos-removal-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-bakersfield-ca/?$",
+      "dest": "/grn-asbestos-removal-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-anaheim-ca/?$",
+      "dest": "/grn-asbestos-removal-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-santa-ana-ca/?$",
+      "dest": "/grn-asbestos-removal-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-riverside-ca/?$",
+      "dest": "/grn-asbestos-removal-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-stockton-ca/?$",
+      "dest": "/grn-asbestos-removal-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-chula-vista-ca/?$",
+      "dest": "/grn-asbestos-removal-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-fremont-ca/?$",
+      "dest": "/grn-asbestos-removal-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-irvine-ca/?$",
+      "dest": "/grn-asbestos-removal-irvine-ca-v1.html"
     },
     {
       "src": "^/general-contractor-portland-or/?$",
       "dest": "/grn-general-contractor-portland-or-v1.html"
     },
     {
+      "src": "^/general-contractor-salem-or/?$",
+      "dest": "/grn-general-contractor-salem-or-v1.html"
+    },
+    {
+      "src": "^/general-contractor-eugene-or/?$",
+      "dest": "/grn-general-contractor-eugene-or-v1.html"
+    },
+    {
+      "src": "^/general-contractor-bend-or/?$",
+      "dest": "/grn-general-contractor-bend-or-v1.html"
+    },
+    {
+      "src": "^/general-contractor-medford-or/?$",
+      "dest": "/grn-general-contractor-medford-or-v1.html"
+    },
+    {
+      "src": "^/general-contractor-corvallis-or/?$",
+      "dest": "/grn-general-contractor-corvallis-or-v1.html"
+    },
+    {
       "src": "^/general-contractor-seattle-wa/?$",
       "dest": "/grn-general-contractor-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-spokane-wa/?$",
+      "dest": "/grn-general-contractor-spokane-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-tacoma-wa/?$",
+      "dest": "/grn-general-contractor-tacoma-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-vancouver-wa/?$",
+      "dest": "/grn-general-contractor-vancouver-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-bellevue-wa/?$",
+      "dest": "/grn-general-contractor-bellevue-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-kent-wa/?$",
+      "dest": "/grn-general-contractor-kent-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-everett-wa/?$",
+      "dest": "/grn-general-contractor-everett-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-spokane-valley-wa/?$",
+      "dest": "/grn-general-contractor-spokane-valley-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-renton-wa/?$",
+      "dest": "/grn-general-contractor-renton-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-federal-way-wa/?$",
+      "dest": "/grn-general-contractor-federal-way-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-yakima-wa/?$",
+      "dest": "/grn-general-contractor-yakima-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-bellingham-wa/?$",
+      "dest": "/grn-general-contractor-bellingham-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-kirkland-wa/?$",
+      "dest": "/grn-general-contractor-kirkland-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-kennewick-wa/?$",
+      "dest": "/grn-general-contractor-kennewick-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-auburn-wa/?$",
+      "dest": "/grn-general-contractor-auburn-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-redmond-wa/?$",
+      "dest": "/grn-general-contractor-redmond-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-pasco-wa/?$",
+      "dest": "/grn-general-contractor-pasco-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-marysville-wa/?$",
+      "dest": "/grn-general-contractor-marysville-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-sammamish-wa/?$",
+      "dest": "/grn-general-contractor-sammamish-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-richland-wa/?$",
+      "dest": "/grn-general-contractor-richland-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-lakewood-wa/?$",
+      "dest": "/grn-general-contractor-lakewood-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-shoreline-wa/?$",
+      "dest": "/grn-general-contractor-shoreline-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-lacey-wa/?$",
+      "dest": "/grn-general-contractor-lacey-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-olympia-wa/?$",
+      "dest": "/grn-general-contractor-olympia-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-burien-wa/?$",
+      "dest": "/grn-general-contractor-burien-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-bothell-wa/?$",
+      "dest": "/grn-general-contractor-bothell-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-los-angeles-ca/?$",
+      "dest": "/grn-general-contractor-los-angeles-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-san-diego-ca/?$",
+      "dest": "/grn-general-contractor-san-diego-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-san-jose-ca/?$",
+      "dest": "/grn-general-contractor-san-jose-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-san-francisco-ca/?$",
+      "dest": "/grn-general-contractor-san-francisco-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-fresno-ca/?$",
+      "dest": "/grn-general-contractor-fresno-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-sacramento-ca/?$",
+      "dest": "/grn-general-contractor-sacramento-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-long-beach-ca/?$",
+      "dest": "/grn-general-contractor-long-beach-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-oakland-ca/?$",
+      "dest": "/grn-general-contractor-oakland-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-bakersfield-ca/?$",
+      "dest": "/grn-general-contractor-bakersfield-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-anaheim-ca/?$",
+      "dest": "/grn-general-contractor-anaheim-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-santa-ana-ca/?$",
+      "dest": "/grn-general-contractor-santa-ana-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-riverside-ca/?$",
+      "dest": "/grn-general-contractor-riverside-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-stockton-ca/?$",
+      "dest": "/grn-general-contractor-stockton-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-chula-vista-ca/?$",
+      "dest": "/grn-general-contractor-chula-vista-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-fremont-ca/?$",
+      "dest": "/grn-general-contractor-fremont-ca-v1.html"
+    },
+    {
+      "src": "^/general-contractor-irvine-ca/?$",
+      "dest": "/grn-general-contractor-irvine-ca-v1.html"
     }
   ]
 }
