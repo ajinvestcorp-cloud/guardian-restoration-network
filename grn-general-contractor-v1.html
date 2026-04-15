@@ -202,8 +202,8 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
 </head>
 <body>
 
-<nav class="nav">
-  <a href="/" class="nav-logo" aria-label="Guardian Restoration Network Home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" height="56" width="auto">
+<nav style="position:sticky;top:0;z-index:200;background:#0b1d3a;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:72px;box-shadow:0 2px 12px rgba(0,0,0,0.3);border-bottom:1px solid rgba(255,85,0,0.15);">
+  <a href="/" style="text-decoration:none;display:flex;align-items:center;" aria-label="Guardian Restoration Network Home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" height="56" width="auto">
   <path d="M54 0 L108 20 L108 66 C108 97 82 116 54 128 C26 116 0 97 0 66 L0 20 Z" fill="#ff5500"/>
   <path d="M54 9 L99 27 L99 66 C99 93 75 111 54 120 C33 111 9 93 9 66 L9 27 Z" fill="none" stroke="#000000" stroke-width="2.8" opacity="0.75"/>
   <text x="54" y="93" font-family="Arial Black, sans-serif" font-size="70" font-weight="900" fill="white" text-anchor="middle">G</text>
@@ -212,11 +212,56 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
   <rect x="124" y="86" width="338" height="1.5" rx="1" fill="#ff5500" opacity="0.5"/>
   <text x="124" y="102" font-family="Arial, sans-serif" font-size="10.5" fill="#ff7a00" letter-spacing="1.2">DAMAGE COVERED. EXPERT DISPATCHED.</text>
 </svg></a>
-  <div class="nav-right">
-    <a href="tel:8886250666" class="nav-phone" aria-label="Call Guardian Restoration Network">📞 (888) 625-0666</a>
-    <a href="/contact/" class="btn-nav" aria-label="Get Help Now">Get Help Now</a>
+  <div class="grn-full-nav-links" style="display:flex;align-items:center;gap:4px;">
+    <div style="position:relative;" class="grn-dd">
+      <button onclick="grnToggleDD(this)" style="display:flex;align-items:center;gap:5px;color:rgba(255,255,255,0.8);font-size:14px;font-weight:600;padding:8px 14px;border-radius:4px;cursor:pointer;white-space:nowrap;background:none;border:none;font-family:inherit;">Services <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 4l4 4 4-4" stroke="rgba(255,255,255,0.7)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="grn-dd-menu" style="position:absolute;top:calc(100% + 8px);left:0;background:#0a1a30;border:1px solid rgba(255,85,0,0.2);border-radius:8px;padding:8px;min-width:260px;box-shadow:0 16px 40px rgba(0,0,0,0.5);display:none;z-index:300;">
+        <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,85,0,0.7);padding:8px 12px 4px;">Restoration</div>
+        <a href="/water-damage-restoration/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">💧</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Water Damage</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Pipes, flooding, appliance overflow</span></div></a>
+        <a href="/fire-damage-restoration/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">🔥</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Fire Damage</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Fire, smoke, soot restoration</span></div></a>
+        <a href="/mold-remediation/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">🍃</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Mold Remediation</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Assessment, containment, removal</span></div></a>
+        <a href="/storm-damage-restoration/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">⛈️</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Storm Damage</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Wind, hail, tornado damage</span></div></a>
+        <a href="/biohazard-cleanup/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">⚠️</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Biohazard Cleanup</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Sewage, contamination removal</span></div></a>
+        <a href="/asbestos-abatement/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.12);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">🏗️</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Asbestos Abatement</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Testing, containment, removal</span></div></a>
+        <div style="height:1px;background:rgba(255,255,255,0.07);margin:6px 8px;"></div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,85,0,0.7);padding:8px 12px 4px;">Construction</div>
+        <a href="/general-contractor/" style="display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:6px;text-decoration:none;" onmouseover="this.style.background='rgba(255,85,0,0.1)'" onmouseout="this.style.background='none'"><span style="width:32px;height:32px;border-radius:6px;background:rgba(255,85,0,0.2);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;">🔨</span><div><strong style="display:block;font-size:13px;color:#fff;margin-bottom:2px;">Reconstruction & GC Work</strong><span style="font-size:11px;color:rgba(255,255,255,0.45);">Full rebuild — all trades</span></div></a>
+      </div>
+    </div>
+    <a href="/how-it-works/" style="color:rgba(255,255,255,0.8);font-size:14px;font-weight:600;text-decoration:none;padding:8px 14px;border-radius:4px;" onmouseover="this.style.background='rgba(255,255,255,0.06)';this.style.color='#fff'" onmouseout="this.style.background='none';this.style.color='rgba(255,255,255,0.8)'">How It Works</a>
+    <a href="/about/" style="color:rgba(255,255,255,0.8);font-size:14px;font-weight:600;text-decoration:none;padding:8px 14px;border-radius:4px;" onmouseover="this.style.background='rgba(255,255,255,0.06)';this.style.color='#fff'" onmouseout="this.style.background='none';this.style.color='rgba(255,255,255,0.8)'">About</a>
+    <a href="/contact/" style="color:rgba(255,255,255,0.8);font-size:14px;font-weight:600;text-decoration:none;padding:8px 14px;border-radius:4px;" onmouseover="this.style.background='rgba(255,255,255,0.06)';this.style.color='#fff'" onmouseout="this.style.background='none';this.style.color='rgba(255,255,255,0.8)'">Contact</a>
+  </div>
+  <div style="display:flex;align-items:center;gap:12px;flex-shrink:0;">
+    <a href="tel:8886250666" style="color:#ff5500;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap;" aria-label="Call Guardian Restoration Network">📞 (888) 625-0666</a>
+    <a href="/contact/" style="background:#ff5500;color:#fff;padding:10px 22px;border-radius:6px;font-size:14px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:0.5px;white-space:nowrap;" aria-label="Get Help Now">Get Help Now</a>
+    <button onclick="grnToggleMobile()" class="grn-mob-btn" style="display:none;background:none;border:none;cursor:pointer;padding:8px;color:#fff;" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </nav>
+<div id="grn-mob-nav" style="display:none;position:fixed;inset:0;top:72px;background:#08152a;z-index:150;overflow-y:auto;padding:16px 20px 40px;">
+  <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,85,0,0.6);padding:12px 4px 6px;">Restoration</div>
+  <a href="/water-damage-restoration/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">💧 Water Damage Restoration</a>
+  <a href="/fire-damage-restoration/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">🔥 Fire Damage Restoration</a>
+  <a href="/mold-remediation/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">🍃 Mold Remediation</a>
+  <a href="/storm-damage-restoration/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">⛈️ Storm Damage Restoration</a>
+  <a href="/biohazard-cleanup/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">⚠️ Biohazard Cleanup</a>
+  <a href="/asbestos-abatement/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">🏗️ Asbestos Abatement</a>
+  <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,85,0,0.6);padding:12px 4px 6px;">Construction</div>
+  <a href="/general-contractor/" style="display:block;padding:11px 16px;color:rgba(255,255,255,0.65);font-size:14px;font-weight:500;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.04);">🔨 Reconstruction & GC Work</a>
+  <a href="/how-it-works/" style="display:block;padding:14px 4px;color:rgba(255,255,255,0.85);font-size:16px;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.07);">How It Works</a>
+  <a href="/about/" style="display:block;padding:14px 4px;color:rgba(255,255,255,0.85);font-size:16px;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.07);">About</a>
+  <a href="/contact/" style="display:block;padding:14px 4px;color:rgba(255,255,255,0.85);font-size:16px;font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.07);">Contact</a>
+  <a href="tel:8886250666" style="display:block;padding:14px 4px;color:#ff5500;font-size:16px;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(255,255,255,0.07);">📞 (888) 625-0666</a>
+  <a href="/contact/" style="display:block;margin-top:20px;background:#ff5500;color:#fff;text-align:center;padding:16px;border-radius:8px;font-size:16px;font-weight:700;text-decoration:none;text-transform:uppercase;letter-spacing:0.5px;">Get Help Now</a>
+</div>
+<style>@media(max-width:960px){.grn-full-nav-links{display:none!important;}.grn-mob-btn{display:flex!important;}}</style>
+<script>
+function grnToggleDD(btn){var m=btn.nextElementSibling;m.style.display=m.style.display==='block'?'none':'block';}
+function grnToggleMobile(){var n=document.getElementById('grn-mob-nav');n.style.display=n.style.display==='block'?'none':'block';}
+document.addEventListener('click',function(e){document.querySelectorAll('.grn-dd-menu').forEach(function(m){if(!m.previousElementSibling.contains(e.target)&&!m.contains(e.target)){m.style.display='none';}});});
+</script>
 
 <nav aria-label="breadcrumb" class="breadcrumb">Home › Reconstruction & General Contracting</nav>
 

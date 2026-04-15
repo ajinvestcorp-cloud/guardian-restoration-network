@@ -5,6 +5,22 @@
       "dest": "/grn-homepage-v7.html"
     },
     {
+      "src": "^/how-it-works/?$",
+      "dest": "/grn-how-it-works-v1.html"
+    },
+    {
+      "src": "^/about/?$",
+      "dest": "/grn-about-v1.html"
+    },
+    {
+      "src": "^/services/?$",
+      "dest": "/grn-services-v2.html"
+    },
+    {
+      "src": "^/contact/?$",
+      "dest": "/grn-contact-v4.html"
+    },
+    {
       "src": "^/water-damage-restoration/?$",
       "dest": "/grn-water-damage-v1.html"
     },
