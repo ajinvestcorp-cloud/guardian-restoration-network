@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guardian Restoration Network | 24/7 Emergency Property Restoration</title>
+<meta name="description" content="Guardian Restoration Network provides 24/7 emergency water damage, fire damage, mold remediation, and storm damage restoration services nationwide. Call 888-625-0666.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0b1d3a;--orange:#ff5500;--white:#fff}
+body{font-family:'Barlow',sans-serif;color:var(--navy);background:#fff}
+a{text-decoration:none;color:inherit}
+
+/* NAV */
+nav{background:var(--navy);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.nav-logo{display:flex;align-items:center;gap:10px}
+.nav-logo span{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:#fff;line-height:1.1}
+.nav-logo span small{display:block;font-size:12px;font-weight:400;opacity:.7;letter-spacing:.05em}
+.nav-right{display:flex;align-items:center;gap:16px}
+.nav-phone{color:#fff;font-weight:600;font-size:15px;display:flex;align-items:center;gap:6px}
+.btn-nav{background:var(--orange);color:#fff;padding:10px 20px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
+
+/* HERO */
+.hero{background:var(--navy);padding:80px 24px 70px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 50%,rgba(255,85,0,.12) 0%,transparent 70%)}
+.hero-badge{display:inline-block;background:rgba(255,85,0,.15);border:1px solid rgba(255,85,0,.4);color:var(--orange);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:6px 16px;border-radius:20px;margin-bottom:24px}
+.hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(42px,7vw,80px);font-weight:800;color:#fff;line-height:1.0;margin-bottom:12px}
+.hero h1 span{color:var(--orange)}
+.hero-sub{color:rgba(255,255,255,.75);font-size:clamp(16px,2vw,20px);max-width:640px;margin:0 auto 36px;line-height:1.6}
+.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:var(--orange);color:#fff;padding:16px 32px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:.03em;display:inline-flex;align-items:center;gap:8px}
+.btn-secondary{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);padding:16px 32px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:.03em}
+
+/* TRUST BAR */
+.trust-bar{background:var(--orange);padding:14px 24px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
+.trust-bar span{color:#fff;font-weight:600;font-size:14px;display:flex;align-items:center;gap:6px}
+.trust-bar span::before{content:'✓';font-weight:800}
+
+/* SERVICES */
+.services{padding:72px 24px;background:#f8f9fb;text-align:center}
+.section-label{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:12px}
+.section-title{font-family:'Barlow Condensed',sans-serif;font-size:clamp(32px,5vw,48px);font-weight:800;color:var(--navy);margin-bottom:48px;line-height:1.1}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:1100px;margin:0 auto}
+.service-card{background:#fff;border-radius:8px;padding:32px 24px;text-align:left;border:1px solid #e8eaf0;transition:box-shadow .2s,transform .2s}
+.service-card:hover{box-shadow:0 8px 32px rgba(11,29,58,.12);transform:translateY(-2px)}
+.service-icon{width:48px;height:48px;background:rgba(255,85,0,.1);border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:24px}
+.service-card h3{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.service-card p{color:#5a6a80;font-size:14px;line-height:1.6;margin-bottom:16px}
+.service-link{color:var(--orange);font-weight:600;font-size:14px;display:flex;align-items:center;gap:4px}
+
+/* HOW IT WORKS */
+.how{padding:72px 24px;text-align:center}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;max-width:960px;margin:0 auto}
+.step{position:relative;padding:0 16px}
+.step-num{width:56px;height:56px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:800;color:#fff;margin:0 auto 20px}
+.step h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.step p{color:#5a6a80;font-size:14px;line-height:1.6}
+
+/* WHY */
+.why{padding:72px 24px;background:var(--navy);text-align:center}
+.why .section-title{color:#fff}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;max-width:960px;margin:0 auto}
+.why-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:28px 24px;text-align:left}
+.why-card h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:8px}
+.why-card p{color:rgba(255,255,255,.65);font-size:14px;line-height:1.6}
+.why-card .icon{font-size:28px;margin-bottom:12px}
+
+/* CTA BAND */
+.cta-band{background:var(--orange);padding:56px 24px;text-align:center}
+.cta-band h2{font-family:'Barlow Condensed',sans-serif;font-size:clamp(32px,5vw,52px);font-weight:800;color:#fff;margin-bottom:16px;line-height:1.1}
+.cta-band p{color:rgba(255,255,255,.85);font-size:18px;margin-bottom:32px}
+.btn-white{background:#fff;color:var(--orange);padding:16px 36px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;display:inline-block}
+
+/* FOOTER */
+footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
+.footer-inner{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;margin-bottom:32px}
+.footer-brand span{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;color:#fff}
+.footer-brand p{font-size:13px;margin-top:8px;max-width:280px;line-height:1.6}
+.footer-links h4{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
+.footer-links a{display:block;font-size:13px;margin-bottom:8px;color:rgba(255,255,255,.5);transition:color .2s}
+.footer-links a:hover{color:var(--orange)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;font-size:12px;text-align:center}
+.footer-disclaimer{font-size:11px;color:rgba(255,255,255,.3);max-width:700px;margin:8px auto 0;line-height:1.6}
+
+@media(max-width:600px){
+  .nav-phone{display:none}
+  .hero{padding:56px 20px 48px}
+  .btn-secondary{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <svg viewBox="0 0 400 132" height="52" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 20 L66 6 L122 20 L122 72 Q122 110 66 126 Q10 110 10 72 Z" fill="#ff5500"/>
+      <path d="M16 23 L66 10 L116 23 L116 72 Q116 107 66 122 Q16 107 16 72 Z" fill="none" stroke="rgba(0,0,0,0.75)" stroke-width="2"/>
+      <text x="66" y="88" text-anchor="middle" fill="white" font-family="Arial Black,Arial" font-size="70" font-weight="900">G</text>
+      <text x="148" y="62" fill="white" font-family="Arial Black,Arial" font-size="44" font-weight="900">GUARDIAN</text>
+      <text x="148" y="83" fill="#ff5500" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3.5">RESTORATION NETWORK</text>
+      <line x1="148" y1="91" x2="390" y2="91" stroke="#ff5500" stroke-width="1.5"/>
+      <text x="148" y="106" fill="#ff5500" font-family="Arial,sans-serif" font-size="10.5" letter-spacing="1.5">DAMAGE COVERED. EXPERT DISPATCHED.</text>
+    </svg>
+  </a>
+  <div class="nav-right">
+    <a href="tel:8886250666" class="nav-phone">📞 (888) 625-0666</a>
+    <a href="/contact/" class="btn-nav">GET HELP NOW</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">⚡ 24/7 Emergency Response — Nationwide</div>
+  <h1>Property Damage?<br><span>We Handle Everything.</span></h1>
+  <p class="hero-sub">We confirm your coverage, manage your insurance carrier, and dispatch vetted local contractors — so you don't have to fight the battle alone.</p>
+  <div class="hero-btns">
+    <a href="tel:8886250666" class="btn-primary">📞 Call Now — (888) 625-0666</a>
+    <a href="/contact/" class="btn-secondary">Get Help Online →</a>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <span>Coverage Confirmed Fast</span>
+  <span>We Manage Your Claim</span>
+  <span>Licensed Contractors Dispatched</span>
+  <span>Rapid Response Dispatch</span>
+  <span>All 50 States Served</span>
+</div>
+
+<section class="services">
+  <div class="section-label">Our Services</div>
+  <h2 class="section-title">Every Type of Property Damage</h2>
+  <div class="services-grid">
+    <a href="/water-damage-restoration/" class="service-card">
+      <div class="service-icon">💧</div>
+      <h3>Water Damage Restoration</h3>
+      <p>Emergency water extraction, drying, and full structural restoration for flooded homes and businesses.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/fire-damage-restoration/" class="service-card">
+      <div class="service-icon">🔥</div>
+      <h3>Fire Damage Restoration</h3>
+      <p>Complete fire and smoke damage cleanup, odor removal, and reconstruction services.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/mold-remediation/" class="service-card">
+      <div class="service-icon">🛡️</div>
+      <h3>Mold Remediation</h3>
+      <p>Professional mold inspection, containment, removal, and prevention to protect your property.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/storm-damage-restoration/" class="service-card">
+      <div class="service-icon">⛈️</div>
+      <h3>Storm Damage Restoration</h3>
+      <p>Rapid response to wind, hail, and flood damage with full insurance claim management.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/sewage-cleanup/" class="service-card">
+      <div class="service-icon">⚠️</div>
+      <h3>Sewage Cleanup &amp; Biohazard</h3>
+      <p>Safe, certified cleanup of sewage backups, biohazard situations, and contaminated materials.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/asbestos-removal/" class="service-card">
+      <div class="service-icon">🏗️</div>
+      <h3>Asbestos Abatement</h3>
+      <p>Licensed asbestos testing, containment, and removal in compliance with all federal regulations.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+    <a href="/general-contractor/" class="service-card">
+      <div class="service-icon">🔨</div>
+      <h3>Reconstruction &amp; General Contracting</h3>
+      <p>Full rebuild and reconstruction services after any disaster — from drywall to full structural repairs.</p>
+      <span class="service-link">Learn More →</span>
+    </a>
+  </div>
+</section>
+
+<section class="how">
+  <div class="section-label">How It Works</div>
+  <h2 class="section-title">From Call to Contractor in 4 Steps</h2>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h3>Call or Submit</h3>
+      <p>Call 888-625-0666 or fill out our contact form. We respond immediately, 24/7.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h3>Coverage Confirmed</h3>
+      <p>We confirm your policy is active and manage communication with your insurance carrier.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h3>Contractor Dispatched</h3>
+      <p>A vetted, licensed local contractor is dispatched to your property right away.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <h3>You Handle Your Deductible</h3>
+      <p>You handle your deductible — we handle the rest. Full claim management from start to finish.</p>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="section-label" style="color:rgba(255,85,0,.9)">Why Guardian</div>
+  <h2 class="section-title">We're In Your Corner</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="icon">🕐</div>
+      <h3>24/7 Emergency Response</h3>
+      <p>Disasters don't wait for business hours. Neither do we. Call anytime, day or night.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon">📋</div>
+      <h3>Full Insurance Management</h3>
+      <p>We confirm your policy is active and manage the entire claims process on your behalf.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon">🔍</div>
+      <h3>Vetted Local Contractors</h3>
+      <p>Every contractor in our network is licensed, insured, and background-checked.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon">🌎</div>
+      <h3>Nationwide Coverage</h3>
+      <p>We serve all 50 states with local contractors in hundreds of cities across the country.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <h2>Damage Happening Right Now?</h2>
+  <p>Don't wait. Every minute matters. Call us and we'll get started immediately.</p>
+  <a href="tel:8886250666" class="btn-white">📞 Call (888) 625-0666 Now</a>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span>GUARDIAN RESTORATION NETWORK</span>
+      <p>Lulabella Management DBA Guardian Restoration Network. Licensed, insured, and available 24/7 nationwide.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Services</h4>
+      <a href="/water-damage-restoration/">Water Damage</a>
+      <a href="/fire-damage-restoration/">Fire Damage</a>
+      <a href="/mold-remediation/">Mold Remediation</a>
+      <a href="/storm-damage-restoration/">Storm Damage</a>
+      <a href="/sewage-cleanup/">Sewage Cleanup</a>
+      <a href="/asbestos-removal/">Asbestos Abatement</a>
+      <a href="/general-contractor/">General Contracting</a>
+    </div>
+    <div class="footer-links">
+      <h4>Contact</h4>
+      <a href="tel:8886250666">(888) 625-0666</a>
+      <a href="/contact/">Get Help Online</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Guardian Restoration Network. All rights reserved.
+    <p class="footer-disclaimer">Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
+  </div>
+</footer>
+
+</body>
+</html>
