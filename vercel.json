@@ -1,0 +1,92 @@
+{
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/grn-homepage-v7.html"
+    },
+    {
+      "src": "^/water-damage-restoration/?$",
+      "dest": "/grn-water-damage-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration/?$",
+      "dest": "/grn-fire-damage-v1.html"
+    },
+    {
+      "src": "^/mold-remediation/?$",
+      "dest": "/grn-mold-remediation-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration/?$",
+      "dest": "/grn-storm-damage-v1.html"
+    },
+    {
+      "src": "^/biohazard-cleanup/?$",
+      "dest": "/grn-biohazard-cleanup-v1.html"
+    },
+    {
+      "src": "^/asbestos-abatement/?$",
+      "dest": "/grn-asbestos-abatement-v1.html"
+    },
+    {
+      "src": "^/general-contractor/?$",
+      "dest": "/grn-general-contractor-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-portland-or/?$",
+      "dest": "/grn-water-damage-restoration-portland-or-v1.html"
+    },
+    {
+      "src": "^/water-damage-restoration-seattle-wa/?$",
+      "dest": "/grn-water-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-portland-or/?$",
+      "dest": "/grn-fire-damage-restoration-portland-or-v1.html"
+    },
+    {
+      "src": "^/fire-damage-restoration-seattle-wa/?$",
+      "dest": "/grn-fire-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-portland-or/?$",
+      "dest": "/grn-mold-remediation-portland-or-v1.html"
+    },
+    {
+      "src": "^/mold-remediation-seattle-wa/?$",
+      "dest": "/grn-mold-remediation-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-portland-or/?$",
+      "dest": "/grn-storm-damage-restoration-portland-or-v1.html"
+    },
+    {
+      "src": "^/storm-damage-restoration-seattle-wa/?$",
+      "dest": "/grn-storm-damage-restoration-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-portland-or/?$",
+      "dest": "/grn-sewage-cleanup-portland-or-v1.html"
+    },
+    {
+      "src": "^/sewage-cleanup-seattle-wa/?$",
+      "dest": "/grn-sewage-cleanup-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-portland-or/?$",
+      "dest": "/grn-asbestos-removal-portland-or-v1.html"
+    },
+    {
+      "src": "^/asbestos-removal-seattle-wa/?$",
+      "dest": "/grn-asbestos-removal-seattle-wa-v1.html"
+    },
+    {
+      "src": "^/general-contractor-portland-or/?$",
+      "dest": "/grn-general-contractor-portland-or-v1.html"
+    },
+    {
+      "src": "^/general-contractor-seattle-wa/?$",
+      "dest": "/grn-general-contractor-seattle-wa-v1.html"
+    }
+  ]
+}
