@@ -4,71 +4,69 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get Help Now | Guardian Restoration Network</title>
-<meta name="description" content="Submit your property damage claim online. Guardian Restoration Network responds 24/7. Call 888-625-0666 or fill out the form below.">
+<link rel="canonical" href="https://guardianrestorationnetwork.com/contact/" />
+<meta name="description" content="Contact Guardian Restoration Network. Call (888) 625-0666 or submit online. We confirm your coverage and dispatch a vetted local contractor fast." />
+<meta name="robots" content="index, follow" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--navy:#0b1d3a;--orange:#ff5500;--white:#fff}
-body{font-family:'Barlow',sans-serif;color:var(--navy);background:#fff}
+:root{--navy:#0b1d3a;--navy-light:#0f2650;--orange:#ff5500;--white:#fff;--gray-light:#f8fafc;--gray-text:#64748b}
+body{font-family:'Barlow',sans-serif;color:#1e293b;background:#fff}
 a{text-decoration:none;color:inherit}
 
-/* NAV */
-nav{background:var(--navy);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-.nav-logo{display:flex;align-items:center;gap:10px}
-.nav-logo span{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:#fff;line-height:1.1}
-.nav-logo span small{display:block;font-size:12px;font-weight:400;opacity:.7;letter-spacing:.05em}
-.nav-right{display:flex;align-items:center;gap:16px}
-.nav-phone{color:#fff;font-weight:600;font-size:15px;display:flex;align-items:center;gap:6px}
-.btn-nav{background:var(--orange);color:#fff;padding:10px 20px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
+nav{position:sticky;top:0;z-index:200;background:#0b1d3a;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:72px;box-shadow:0 2px 12px rgba(0,0,0,0.3);border-bottom:1px solid rgba(255,85,0,0.15)}
+.nav-phone{color:#ff5500;font-size:14px;font-weight:700;text-decoration:none}
+.nav-cta{background:#ff5500;color:#fff;padding:10px 22px;border-radius:6px;font-size:14px;font-weight:700;text-transform:uppercase}
 
-/* HERO */
-.page-hero{background:var(--navy);padding:56px 24px 48px;text-align:center}
-.page-hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(36px,6vw,60px);font-weight:800;color:#fff;line-height:1.05;margin-bottom:12px}
-.page-hero h1 span{color:var(--orange)}
-.page-hero p{color:rgba(255,255,255,.75);font-size:18px;max-width:540px;margin:0 auto}
+.page-hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 60%,#1a3a6e 100%);padding:70px 5% 80px;text-align:center}
+.page-hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(28px,4vw,52px);font-weight:800;color:#fff;line-height:1.1;margin-bottom:16px}
+.page-hero h1 span{color:#ff5500}
+.page-hero p{font-size:clamp(15px,2vw,18px);color:rgba(255,255,255,0.75);max-width:520px;margin:0 auto 36px;line-height:1.6}
+.hero-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn-primary{background:#ff5500;color:#fff;padding:18px 40px;border-radius:8px;font-size:18px;font-weight:800;display:inline-flex;align-items:center;gap:8px;box-shadow:0 4px 20px rgba(255,85,0,0.4)}
+.btn-secondary{background:transparent;color:#fff;padding:18px 40px;border-radius:8px;font-size:18px;font-weight:700;border:2px solid rgba(255,255,255,0.4)}
 
-/* TRUST BAR */
-.trust-bar{background:var(--orange);padding:12px 24px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap}
-.trust-bar span{color:#fff;font-weight:600;font-size:13px;display:flex;align-items:center;gap:5px}
-.trust-bar span::before{content:'✓';font-weight:800}
+.contact-section{background:var(--gray-light);padding:80px 5%}
+.contact-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:48px;max-width:1100px;margin:0 auto;align-items:start}
+.contact-info{display:flex;flex-direction:column;gap:24px}
+.contact-card{background:#fff;border-radius:12px;padding:28px;border:1px solid #e2e8f0}
+.contact-card h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:8px}
+.contact-card p{font-size:14px;color:var(--gray-text);line-height:1.6}
+.contact-card a{color:#ff5500;font-weight:700}
+.what-to-expect{background:var(--navy);border-radius:12px;padding:28px}
+.what-to-expect h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:#fff;margin-bottom:16px}
+.expect-item{display:flex;gap:14px;margin-bottom:14px;align-items:flex-start}
+.expect-num{width:28px;height:28px;border-radius:50%;background:#ff5500;color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.expect-item p{font-size:14px;color:rgba(255,255,255,0.8);line-height:1.6}
 
-/* MAIN LAYOUT */
-.contact-wrap{max-width:960px;margin:0 auto;padding:56px 24px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-@media(max-width:720px){.contact-wrap{grid-template-columns:1fr;gap:32px}}
+.form-card{background:#fff;border-radius:16px;padding:48px 40px;border:1px solid #e2e8f0;box-shadow:0 8px 40px rgba(0,0,0,0.08)}
+.form-card h2{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:800;color:var(--navy);margin-bottom:8px}
+.form-card .sub{font-size:15px;color:var(--gray-text);margin-bottom:24px;line-height:1.6}
+.form-embed-wrapper{min-height:1277px}
 
-/* LEFT SIDE */
-.contact-info h2{font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:800;color:var(--navy);margin-bottom:8px}
-.contact-info .subhead{color:#5a6a80;font-size:15px;line-height:1.6;margin-bottom:32px}
-.contact-call{background:var(--navy);border-radius:8px;padding:24px;margin-bottom:24px;text-align:center}
-.contact-call p{color:rgba(255,255,255,.7);font-size:13px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em;font-weight:600}
-.contact-call a{color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:800;display:block}
-.contact-call small{color:rgba(255,255,255,.5);font-size:12px}
-.what-to-expect h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:var(--navy);margin-bottom:16px}
-.expect-item{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start}
-.expect-num{min-width:28px;height:28px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;color:#fff}
-.expect-item p{font-size:14px;color:#5a6a80;line-height:1.5;padding-top:4px}
+.cta2{background:linear-gradient(135deg,#ff5500 0%,#ff7a00 100%);padding:72px 5%;text-align:center}
+.cta2 h2{font-family:'Barlow Condensed',sans-serif;font-size:clamp(28px,4vw,48px);font-weight:800;color:#fff;margin-bottom:14px}
+.cta2 p{font-size:18px;color:rgba(255,255,255,0.88);margin-bottom:32px}
+.btn-white{background:#fff;color:#ff5500;padding:16px 42px;border-radius:8px;font-size:17px;font-weight:800;display:inline-block}
 
-/* RIGHT SIDE — FORM */
-.form-box{background:#f8f9fb;border-radius:8px;padding:32px;border:1px solid #e8eaf0}
-.form-box h3{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:800;color:var(--navy);margin-bottom:4px}
-.form-box .form-sub{font-size:13px;color:#5a6a80;margin-bottom:24px}
+footer{background:#06111f;padding:40px 5% 24px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;margin-top:32px}
+.footer-bottom p{color:rgba(255,255,255,0.3);font-size:12px;text-align:center;line-height:1.6}
 
-/* GHL widget container */
-.ghl-widget-wrap{min-height:400px}
-
-/* FOOTER */
-footer{background:#060f1e;padding:32px 24px 20px;color:rgba(255,255,255,.5)}
-.footer-bottom{max-width:960px;margin:0 auto;font-size:12px;text-align:center}
-.footer-disclaimer{font-size:11px;color:rgba(255,255,255,.3);max-width:700px;margin:8px auto 0;line-height:1.6}
-
+@media(max-width:768px){
+  .contact-grid{grid-template-columns:1fr}
+  .form-card{padding:28px 20px}
+  .hero-ctas{flex-direction:column;align-items:stretch}
+  .btn-primary,.btn-secondary{text-align:center;justify-content:center}
+}
 @media(max-width:600px){.nav-phone{display:none}}
 </style>
 </head>
 <body>
 
 <nav>
-  <a href="/" class="nav-logo">
+  <a href="/" aria-label="Guardian Restoration Network Home">
     <svg viewBox="0 0 400 132" height="52" xmlns="http://www.w3.org/2000/svg">
       <path d="M10 20 L66 6 L122 20 L122 72 Q122 110 66 126 Q10 110 10 72 Z" fill="#ff5500"/>
       <path d="M16 23 L66 10 L116 23 L116 72 Q116 107 66 122 Q16 107 16 72 Z" fill="none" stroke="rgba(0,0,0,0.75)" stroke-width="2"/>
@@ -79,89 +77,87 @@ footer{background:#060f1e;padding:32px 24px 20px;color:rgba(255,255,255,.5)}
       <text x="148" y="106" fill="#ff5500" font-family="Arial,sans-serif" font-size="10.5" letter-spacing="1.5">DAMAGE COVERED. EXPERT DISPATCHED.</text>
     </svg>
   </a>
-  <div class="nav-right">
+  <div style="display:flex;align-items:center;gap:12px">
     <a href="tel:8886250666" class="nav-phone">📞 (888) 625-0666</a>
-    <a href="tel:8886250666" class="btn-nav">CALL NOW</a>
+    <a href="tel:8886250666" class="nav-cta">Call Now</a>
   </div>
 </nav>
 
-<div class="page-hero">
+<section class="page-hero">
   <h1>Get Help <span>Right Now</span></h1>
-  <p>Fill out the form below or call us directly. We respond 24/7 — a live specialist will contact you immediately.</p>
-</div>
+  <p>Fill out the form below or call us directly. A Guardian specialist will confirm your coverage and get restoration started fast.</p>
+  <div class="hero-ctas">
+    <a href="tel:8886250666" class="btn-primary">📞 Call Now — (888) 625-0666</a>
+    <a href="#contact-form" class="btn-secondary">Submit Online →</a>
+  </div>
+</section>
 
-<div class="trust-bar">
-  <span>Coverage Confirmed Fast</span>
-  <span>We Manage Your Claim</span>
-  <span>Licensed Contractors Dispatched</span>
-  <span>Available 24/7</span>
-</div>
-
-<div class="contact-wrap">
-  <div class="contact-info">
-    <h2>We're Ready When You Need Us</h2>
-    <p class="subhead">Property damage is stressful. We make it simple — one call or one form and we handle everything from insurance to contractor dispatch.</p>
-
-    <div class="contact-call">
-      <p>📞 Call Us Directly</p>
-      <a href="tel:8886250666">(888) 625-0666</a>
-      <small>Available 24 hours a day, 7 days a week</small>
+<section class="contact-section" id="contact-form">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-card">
+        <h3>📞 Call Us Directly</h3>
+        <p>For immediate emergency help, call us now. Our intake specialist is available 24/7 and will connect you to a live specialist right away.</p>
+        <p style="margin-top:10px"><a href="tel:8886250666">(888) 625-0666</a></p>
+      </div>
+      <div class="contact-card">
+        <h3>⏱️ Response Time</h3>
+        <p>We confirm your active coverage and dispatch a vetted local contractor as rapidly as possible — subject to contractor availability in your area.</p>
+      </div>
+      <div class="contact-card">
+        <h3>💰 What It Costs You</h3>
+        <p>We work directly with your insurance carrier on billing. You handle your deductible per your policy. We manage the rest.</p>
+      </div>
+      <div class="what-to-expect">
+        <h3>What Happens After You Submit</h3>
+        <div class="expect-item"><div class="expect-num">1</div><p>A Guardian specialist confirms your active insurance coverage.</p></div>
+        <div class="expect-item"><div class="expect-num">2</div><p>We become your single point of contact with your insurance carrier and begin coordinating your claim.</p></div>
+        <div class="expect-item"><div class="expect-num">3</div><p>A vetted local contractor is dispatched to your property to begin the restoration process.</p></div>
+        <div class="expect-item"><div class="expect-num">4</div><p>You handle your deductible — we handle everything else.</p></div>
+      </div>
     </div>
 
-    <div class="what-to-expect">
-      <h3>What Happens Next</h3>
-      <div class="expect-item">
-        <div class="expect-num">1</div>
-        <p>We receive your submission and a specialist calls you back immediately.</p>
-      </div>
-      <div class="expect-item">
-        <div class="expect-num">2</div>
-        <p>We confirm your policy is active and coverage is in place.</p>
-      </div>
-      <div class="expect-item">
-        <div class="expect-num">3</div>
-        <p>A vetted local contractor is dispatched to your property.</p>
-      </div>
-      <div class="expect-item">
-        <div class="expect-num">4</div>
-        <p>You handle your deductible — we handle everything else.</p>
+    <div class="form-card">
+      <h2>Tell Us What Happened</h2>
+      <p class="sub">Fill out the form below and a Guardian specialist will contact you shortly. For immediate help call <a href="tel:8886250666" style="color:#ff5500;font-weight:700">(888) 625-0666</a>.</p>
+      <div class="form-embed-wrapper">
+        <iframe
+          src="https://api.leadconnectorhq.com/widget/form/ooQzkbZcqnXMsSX8FgKQ"
+          style="width:100%;height:100%;border:none;border-radius:3px;min-height:1277px"
+          id="inline-ooQzkbZcqnXMsSX8FgKQ"
+          data-layout="{'id':'INLINE'}"
+          data-trigger-type="alwaysShow"
+          data-trigger-value=""
+          data-activation-type="alwaysActivated"
+          data-activation-value=""
+          data-deactivation-type="neverDeactivate"
+          data-deactivation-value=""
+          data-form-name="GRN Contact Form"
+          data-height="1277"
+          data-layout-iframe-id="inline-ooQzkbZcqnXMsSX8FgKQ"
+          data-form-id="ooQzkbZcqnXMsSX8FgKQ"
+          title="GRN Contact Form">
+        </iframe>
+        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="form-box">
-    <h3>Submit Your Claim</h3>
-    <p class="form-sub">A specialist will contact you within minutes.</p>
-    <div class="ghl-widget-wrap">
-      <!-- GoHighLevel Inline Form Embed -->
-      <iframe
-        src="https://api.leadconnectorhq.com/widget/form/69d5585984d8772ba9958d7e"
-        style="width:100%;min-height:480px;border:none;border-radius:4px;display:block"
-        id="inline-69d5585984d8772ba9958d7e"
-        data-layout="{'id':'INLINE'}"
-        data-trigger-type="alwaysShow"
-        data-trigger-value=""
-        data-activation-type="alwaysActivated"
-        data-activation-value=""
-        data-deactivation-type="neverDeactivate"
-        data-deactivation-value=""
-        data-form-name="GRN Contact Form"
-        data-height="480"
-        data-layout-iframe-id="inline-69d5585984d8772ba9958d7e"
-        data-form-id="69d5585984d8772ba9958d7e"
-        title="GRN Contact Form">
-      </iframe>
-      <script src="https://link.msgsndr.com/js/form_embed.js" type="text/javascript"></script>
-    </div>
-  </div>
-</div>
+<section class="cta2">
+  <h2>Property Damaged? Don't Navigate It Alone.</h2>
+  <p>One call puts us in your corner. We manage your claim, coordinate your contractor, and guide you through every step.</p>
+  <a href="tel:8886250666" class="btn-white">📞 Call (888) 625-0666 — Free, 24/7</a>
+</section>
 
 <footer>
   <div class="footer-bottom">
-    © 2026 Guardian Restoration Network | Lulabella Management DBA Guardian Restoration Network
-    <p class="footer-disclaimer">Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
+    <p>© 2026 Lulabella Management DBA Guardian Restoration Network. All rights reserved.<br>
+    Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
   </div>
 </footer>
+
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="69d5585984d8772ba9958d7e"></script>
 
 </body>
 </html>
