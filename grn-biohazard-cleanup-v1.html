@@ -12,10 +12,6 @@
 <meta property="og:url" content="https://guardianrestorationnetwork.com/biohazard-cleanup/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Guardian Restoration Network" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Sewage Cleanup & Biohazard Remediation | Guardian Restoration Network" />
-<meta name="twitter:description" content="Need sewage cleanup & biohazard remediation? Guardian Restoration Network confirms your active insurance coverage, manages your claim with your carrier, and dispatches vetted licensed contractors nationwide. Call (888) 625-0666." />
-<meta name="twitter:site" content="@GuardianRestoration" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -59,12 +55,21 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
 }
 /* NAV */
 .nav { position: sticky; top: 0; z-index: 200; background: var(--navy); padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 72px; box-shadow: 0 2px 12px rgba(0,0,0,0.3); border-bottom: 1px solid rgba(255,85,0,0.15); }
-.nav-logo { text-decoration: none; display: flex; align-items: center; }
-.nav-right { display: flex; align-items: center; gap: 12px; }
+.nav-logo { text-decoration: none; display: flex; align-items: center; flex-shrink: 0; }
+.nav-right { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
 .nav-phone { color: #ff5500; font-size: 14px; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .nav-phone:hover { color: #ff7a00; }
 .btn-nav { background: var(--orange); color: var(--white); padding: 10px 22px; border-radius: 6px; font-size: 14px; font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; transition: background 0.2s; white-space: nowrap; }
 .btn-nav:hover { background: var(--orange-light); }
+.nav-link { color: var(--white); font-size: 14px; font-weight: 600; text-decoration: none; padding: 8px 12px; border-radius: 4px; transition: background 0.2s, color 0.2s; white-space: nowrap; }
+.nav-link:hover { background: rgba(255,85,0,0.15); color: var(--orange); }
+.nav-link-active { color: var(--orange) !important; }
+.nav-dropdown { position: relative; }
+.nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: var(--navy-light); border: 1px solid rgba(255,85,0,0.3); border-radius: 6px; min-width: 220px; padding: 8px 0; z-index: 999; box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.nav-dropdown:hover .nav-dropdown-menu { display: block; }
+.nav-dropdown-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; color: var(--orange); padding: 10px 16px 4px; }
+.nav-dropdown-menu a { display: block; padding: 8px 16px; font-size: 13px; color: rgba(255,255,255,0.85); text-decoration: none; transition: background 0.2s; }
+.nav-dropdown-menu a:hover { background: rgba(255,85,0,0.12); color: var(--white); }
 /* BREADCRUMB */
 .breadcrumb { background: var(--navy-light); padding: 10px 5%; font-size: 13px; color: rgba(255,255,255,0.5); }
 /* HERO */
@@ -196,14 +201,13 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet">
-<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNCZJ4J4BN"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GNCZJ4J4BN');</script>
 </head>
 <body>
 
 <nav class="nav">
-  <span class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" height="56" width="auto">
+  <a href="/" class="nav-logo" aria-label="Guardian Restoration Network Home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" height="48" width="auto">
   <path d="M54 0 L108 20 L108 66 C108 97 82 116 54 128 C26 116 0 97 0 66 L0 20 Z" fill="#ff5500"/>
   <path d="M54 9 L99 27 L99 66 C99 93 75 111 54 120 C33 111 9 93 9 66 L9 27 Z" fill="none" stroke="#000000" stroke-width="2.8" opacity="0.75"/>
   <text x="54" y="93" font-family="Arial Black, sans-serif" font-size="70" font-weight="900" fill="white" text-anchor="middle">G</text>
@@ -211,8 +215,26 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
   <text x="124" y="78" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#ff5500" letter-spacing="3.5">RESTORATION NETWORK</text>
   <rect x="124" y="86" width="338" height="1.5" rx="1" fill="#ff5500" opacity="0.5"/>
   <text x="124" y="102" font-family="Arial, sans-serif" font-size="10.5" fill="#ff7a00" letter-spacing="1.2">DAMAGE COVERED. EXPERT DISPATCHED.</text>
-</svg></span>
-  <div class="nav-right">
+</svg></a>
+  <div class="nav-right" style="gap:6px;">
+    <div class="nav-dropdown">
+      <a href="/services/" class="nav-link">Services ▾</a>
+      <div class="nav-dropdown-menu">
+        <div class="nav-dropdown-label">RESTORATION</div>
+        <a href="/water-damage-restoration/">Water Damage</a>
+        <a href="/fire-damage-restoration/">Fire Damage</a>
+        <a href="/mold-remediation/">Mold Remediation</a>
+        <a href="/storm-damage-restoration/">Storm Damage</a>
+        <a href="/biohazard-cleanup/">Biohazard Cleanup</a>
+        <a href="/asbestos-abatement/">Asbestos Abatement</a>
+        <div class="nav-dropdown-label">CONSTRUCTION</div>
+        <a href="/general-contractor/">Reconstruction &amp; GC Work</a>
+      </div>
+    </div>
+    <a href="/how-it-works/" class="nav-link">How It Works</a>
+    <a href="/about/" class="nav-link">About</a>
+    <a href="/faq/" class="nav-link">FAQ</a>
+    <a href="/contact/" class="nav-link">Contact</a>
     <a href="tel:8886250666" class="nav-phone" aria-label="Call Guardian Restoration Network">📞 (888) 625-0666</a>
     <a href="/contact/" class="btn-nav" aria-label="Get Help Now">Get Help Now</a>
   </div>
@@ -374,9 +396,10 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
   <a href="tel:8886250666" class="btn-white" aria-label="Call Guardian Restoration Network">📞 Call (888) 625-0666 — Free, 24/7</a>
 </section>
 
-<footer class="footer">
-  <div class="footer-simple">
-    <a href="/" aria-label="Guardian Restoration Network Home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 115" height="44" width="auto">
+<footer class="footer" style="background:#06111f;padding:60px 5% 32px;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;max-width:1100px;margin:0 auto 40px;">
+    <div>
+      <a href="/" aria-label="Guardian Restoration Network Home" style="display:block;margin-bottom:14px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 115" height="44" width="auto">
   <g transform="translate(10, 4)">
     <path d="M46 0 L88 16 L88 54 C88 80 68 97 46 107 C24 97 4 80 4 54 L4 16 Z" fill="#0b1d3a"/>
     <path d="M46 7 L82 21 L82 54 C82 77 64 93 46 101 C28 93 10 77 10 54 L10 21 Z" fill="none" stroke="#ff5500" stroke-width="2.2"/>
@@ -387,11 +410,28 @@ body { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif; col
   <rect x="115" y="73" width="278" height="1.5" rx="1" fill="#ff5500" opacity="0.6"/>
   <text x="115" y="89" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.45)" letter-spacing="1.2">DAMAGE COVERED. EXPERT DISPATCHED.</text>
 </svg></a>
-    <p>Guardian Restoration Network — National insurance claim management and restoration network. Available 24/7 at (888) 625-0666.</p>
-    <a href="tel:8886250666" class="btn-primary" aria-label="Call Guardian Restoration Network">📞 Call (888) 625-0666</a>
+      <p style="color:rgba(255,255,255,0.5);font-size:14px;line-height:1.6;">America's trusted insurance claim management and restoration network. Available 24/7 at (888) 625-0666.</p>
+    </div>
+    <div>
+      <h4 style="color:#fff;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;">Services</h4>
+      <a href="/water-damage-restoration/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Water Damage</a>
+      <a href="/fire-damage-restoration/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Fire Damage</a>
+      <a href="/mold-remediation/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Mold Remediation</a>
+      <a href="/storm-damage-restoration/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Storm Damage</a>
+      <a href="/biohazard-cleanup/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Biohazard Cleanup</a>
+      <a href="/asbestos-abatement/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Asbestos Abatement</a>
+    </div>
+    <div>
+      <h4 style="color:#fff;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;">Company</h4>
+      <a href="/how-it-works/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">How It Works</a>
+      <a href="/about/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">About</a>
+      <a href="/faq/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">FAQ</a>
+      <a href="/contact/" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">Contact</a>
+      <a href="tel:8886250666" style="display:block;color:rgba(255,255,255,0.55);font-size:14px;text-decoration:none;margin-bottom:8px;">(888) 625-0666</a>
+    </div>
   </div>
-  <div class="footer-bottom">
-    <p>© 2025 Lulabella Management DBA Guardian Restoration Network. All rights reserved. Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
+  <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;max-width:1100px;margin:0 auto;">
+    <p style="color:rgba(255,255,255,0.3);font-size:12px;">&copy; 2026 Lulabella Management DBA Guardian Restoration Network. All rights reserved. Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
   </div>
 </footer>
 
