@@ -6,7 +6,7 @@
     },
     {
       "src": "^/contact/?$",
-      "dest": "/grn-contact-v1.html"
+      "dest": "/contact.html"
     },
     {
       "src": "^/([^/]+)/?$",
