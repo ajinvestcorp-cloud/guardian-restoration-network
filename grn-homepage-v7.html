@@ -4,32 +4,162 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Guardian Restoration Network | 24/7 Emergency Property Restoration</title>
+<link rel="canonical" href="https://guardianrestorationnetwork.com/" />
 <meta name="description" content="Guardian Restoration Network provides 24/7 emergency water damage, fire damage, mold remediation, and storm damage restoration services nationwide. Call 888-625-0666.">
+<meta name="robots" content="index, follow" />
+
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GNCZJ4J4BN"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GNCZJ4J4BN');</script>
+
+<!-- SCHEMA: Organization / HomeAndConstructionBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Guardian Restoration Network",
+  "url": "https://guardianrestorationnetwork.com",
+  "telephone": "+18886250666",
+  "description": "Nationwide insurance claim management and property damage restoration network. 24/7 emergency response for water damage, fire damage, mold remediation, storm damage, biohazard cleanup, asbestos abatement, and general contracting.",
+  "areaServed": "United States",
+  "openingHours": "Mo-Su 00:00-24:00",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Restoration Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Water Damage Restoration"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Fire Damage Restoration"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mold Remediation"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Storm Damage Restoration"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Biohazard Cleanup"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Asbestos Abatement"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"General Contractor Reconstruction"}}
+    ]
+  }
+}
+</script>
+
+<!-- SCHEMA: HowTo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How Guardian Restoration Network Works",
+  "description": "Guardian manages your entire insurance restoration claim from first call to job complete.",
+  "step": [
+    {"@type":"HowToStep","position":1,"name":"Call or Submit","text":"Call (888) 625-0666 or fill out our contact form. We respond immediately, 24/7."},
+    {"@type":"HowToStep","position":2,"name":"Coverage Confirmed","text":"We confirm your policy is active and manage communication with your insurance carrier."},
+    {"@type":"HowToStep","position":3,"name":"Contractor Dispatched","text":"A vetted, licensed local contractor is dispatched to your property right away."},
+    {"@type":"HowToStep","position":4,"name":"You Handle Your Deductible","text":"You handle your deductible — we handle the rest. Full claim management from start to finish."}
+  ]
+}
+</script>
+
+<!-- SCHEMA: Speakable -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Guardian Restoration Network | 24/7 Emergency Property Restoration",
+  "url": "https://guardianrestorationnetwork.com/",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".hero h1", ".hero-sub", ".section-title"]
+  }
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--navy:#0b1d3a;--orange:#ff5500;--white:#fff}
-body{font-family:'Barlow',sans-serif;color:var(--navy);background:#fff}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --navy:#0b1d3a; --navy-light:#0f2650;
+  --orange:#ff5500; --orange-light:#ff7a00;
+  --white:#fff; --gray-light:#f8fafc; --gray-text:#64748b;
+}
+html,body{background:#fff;font-family:'Barlow',sans-serif;color:var(--navy);overflow-x:hidden}
 a{text-decoration:none;color:inherit}
 
-/* NAV */
-nav{background:var(--navy);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-.nav-logo{display:flex;align-items:center;gap:10px}
-.nav-logo span{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;color:#fff;line-height:1.1}
-.nav-logo span small{display:block;font-size:12px;font-weight:400;opacity:.7;letter-spacing:.05em}
-.nav-right{display:flex;align-items:center;gap:16px}
-.nav-phone{color:#fff;font-weight:600;font-size:15px;display:flex;align-items:center;gap:6px}
-.btn-nav{background:var(--orange);color:#fff;padding:10px 20px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:.03em;white-space:nowrap}
+/* ============ NAV (matches national pages) ============ */
+.grn-nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  background:var(--navy);border-bottom:2px solid var(--orange);
+  padding:0 40px;height:70px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.grn-nav__logo{display:flex;align-items:center}
+.grn-nav__links{display:flex;align-items:center;gap:8px}
+.grn-nav__links a{
+  color:var(--white);font-size:14px;font-weight:600;
+  padding:8px 14px;border-radius:4px;
+  transition:background 0.2s,color 0.2s;white-space:nowrap;
+}
+.grn-nav__links a:hover{background:rgba(255,85,0,0.15);color:var(--orange)}
+.grn-nav__dropdown{position:relative}
+.grn-nav__dropdown > a{display:flex;align-items:center;gap:5px}
+.grn-nav__dropdown > a::after{content:'▾';font-size:11px}
+.grn-nav__dropdown-menu{
+  display:none;position:absolute;top:100%;left:0;
+  background:var(--navy-light);border:1px solid rgba(255,85,0,0.3);
+  border-radius:6px;min-width:220px;padding:8px 0;z-index:999;
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+}
+.grn-nav__dropdown:hover .grn-nav__dropdown-menu{display:block}
+.grn-nav__dropdown-menu .section-label{
+  font-size:10px;font-weight:700;letter-spacing:2px;
+  color:var(--orange);padding:10px 16px 4px;
+}
+.grn-nav__dropdown-menu a{
+  display:block;padding:8px 16px;font-size:13px;
+  color:rgba(255,255,255,0.85);transition:background 0.2s,color 0.2s;border-radius:0;
+}
+.grn-nav__dropdown-menu a:hover{background:rgba(255,85,0,0.12);color:var(--white)}
+.grn-nav__phone{color:var(--orange) !important;font-weight:700 !important;font-size:15px !important}
+.grn-nav__cta{
+  background:var(--orange);color:var(--white) !important;
+  padding:9px 18px !important;border-radius:5px !important;
+  font-weight:700 !important;font-size:13px !important;transition:background 0.2s !important;
+}
+.grn-nav__cta:hover{background:var(--orange-light) !important}
+.grn-nav__hamburger{
+  display:none;flex-direction:column;gap:5px;cursor:pointer;padding:5px;
+}
+.grn-nav__hamburger span{display:block;width:24px;height:2px;background:var(--white);border-radius:2px}
+.grn-mobile-menu{
+  display:none;position:fixed;top:70px;left:0;right:0;
+  background:var(--navy-light);z-index:999;padding:20px;
+  border-bottom:2px solid var(--orange);
+  max-height:calc(100vh - 70px);overflow-y:auto;
+}
+.grn-mobile-menu.open{display:block}
+.grn-mobile-menu a{
+  display:block;padding:12px 0;font-size:15px;font-weight:600;
+  color:var(--white);border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.grn-mobile-menu .section-label{
+  font-size:10px;font-weight:700;letter-spacing:2px;
+  color:var(--orange);padding:14px 0 4px;
+}
+.grn-mobile-menu .mobile-cta{
+  display:block;margin-top:16px;background:var(--orange);
+  color:var(--white) !important;padding:14px;text-align:center;
+  border-radius:6px;font-weight:700;font-size:15px;border-bottom:none !important;
+}
+@media (max-width:900px){
+  .grn-nav__links{display:none}
+  .grn-nav__hamburger{display:flex}
+  .grn-nav{padding:0 20px}
+}
 
-/* HERO */
-.hero{background:var(--navy);padding:80px 24px 70px;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 50%,rgba(255,85,0,.12) 0%,transparent 70%)}
-.hero-badge{display:inline-block;background:rgba(255,85,0,.15);border:1px solid rgba(255,85,0,.4);color:var(--orange);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:6px 16px;border-radius:20px;margin-bottom:24px}
-.hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(42px,7vw,80px);font-weight:800;color:#fff;line-height:1.0;margin-bottom:12px}
+/* ============ HERO ============ */
+.hero{background:var(--navy);padding:130px 24px 70px;text-align:center;position:relative;overflow:hidden;color:#fff}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 50%,rgba(255,85,0,.12) 0%,transparent 70%);pointer-events:none}
+.hero-badge{display:inline-block;background:rgba(255,85,0,.15);border:1px solid rgba(255,85,0,.4);color:var(--orange);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:6px 16px;border-radius:20px;margin-bottom:24px;position:relative}
+.hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(42px,7vw,80px);font-weight:800;color:#fff;line-height:1.0;margin-bottom:12px;position:relative}
 .hero h1 span{color:var(--orange)}
-.hero-sub{color:rgba(255,255,255,.75);font-size:clamp(16px,2vw,20px);max-width:640px;margin:0 auto 36px;line-height:1.6}
-.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.hero-sub{color:rgba(255,255,255,.75);font-size:clamp(16px,2vw,20px);max-width:640px;margin:0 auto 36px;line-height:1.6;position:relative}
+.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative}
 .btn-primary{background:var(--orange);color:#fff;padding:16px 32px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:.03em;display:inline-flex;align-items:center;gap:8px}
 .btn-secondary{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);padding:16px 32px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:.03em}
 
@@ -51,7 +181,7 @@ nav{background:var(--navy);padding:16px 24px;display:flex;align-items:center;jus
 .service-link{color:var(--orange);font-weight:600;font-size:14px;display:flex;align-items:center;gap:4px}
 
 /* HOW IT WORKS */
-.how{padding:72px 24px;text-align:center}
+.how{padding:72px 24px;text-align:center;background:#fff}
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;max-width:960px;margin:0 auto}
 .step{position:relative;padding:0 16px}
 .step-num{width:56px;height:56px;background:var(--orange);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:800;color:#fff;margin:0 auto 20px}
@@ -73,44 +203,97 @@ nav{background:var(--navy);padding:16px 24px;display:flex;align-items:center;jus
 .cta-band p{color:rgba(255,255,255,.85);font-size:18px;margin-bottom:32px}
 .btn-white{background:#fff;color:var(--orange);padding:16px 36px;border-radius:4px;font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;display:inline-block}
 
-/* FOOTER */
-footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
-.footer-inner{max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:32px;justify-content:space-between;margin-bottom:32px}
-.footer-brand span{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;color:#fff}
-.footer-brand p{font-size:13px;margin-top:8px;max-width:280px;line-height:1.6}
-.footer-links h4{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;color:#fff;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
-.footer-links a{display:block;font-size:13px;margin-bottom:8px;color:rgba(255,255,255,.5);transition:color .2s}
-.footer-links a:hover{color:var(--orange)}
-.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;font-size:12px;text-align:center}
-.footer-disclaimer{font-size:11px;color:rgba(255,255,255,.3);max-width:700px;margin:8px auto 0;line-height:1.6}
+/* ============ FOOTER (matches national pages) ============ */
+.grn-footer{background:#07111f;padding:60px 40px 30px;color:#fff}
+.grn-footer__inner{max-width:1100px;margin:0 auto}
+.grn-footer__grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.grn-footer__brand p{font-size:14px;color:rgba(255,255,255,0.5);line-height:1.7;margin-top:16px;max-width:280px}
+.grn-footer__col h4{
+  font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;
+  color:var(--orange);margin-bottom:16px;
+}
+.grn-footer__col a{display:block;font-size:14px;color:rgba(255,255,255,0.55);padding:5px 0;transition:color 0.2s}
+.grn-footer__col a:hover{color:var(--white)}
+.grn-footer__bottom{
+  border-top:1px solid rgba(255,255,255,0.08);padding-top:24px;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+}
+.grn-footer__bottom p{font-size:12px;color:rgba(255,255,255,0.3)}
 
-@media(max-width:600px){
-  .nav-phone{display:none}
-  .hero{padding:56px 20px 48px}
+@media(max-width:768px){
+  .grn-footer__grid{grid-template-columns:1fr 1fr;gap:32px}
+  .grn-footer{padding:48px 20px 24px}
+  .hero{padding:110px 20px 60px}
+}
+@media(max-width:480px){
+  .grn-footer__grid{grid-template-columns:1fr}
   .btn-secondary{display:none}
 }
 </style>
 </head>
 <body>
 
-<nav>
-  <a href="/" class="nav-logo">
-    <svg viewBox="0 0 400 132" height="52" xmlns="http://www.w3.org/2000/svg">
-      <path d="M10 20 L66 6 L122 20 L122 72 Q122 110 66 126 Q10 110 10 72 Z" fill="#ff5500"/>
-      <path d="M16 23 L66 10 L116 23 L116 72 Q116 107 66 122 Q16 107 16 72 Z" fill="none" stroke="rgba(0,0,0,0.75)" stroke-width="2"/>
-      <text x="66" y="88" text-anchor="middle" fill="white" font-family="Arial Black,Arial" font-size="70" font-weight="900">G</text>
-      <text x="148" y="62" fill="white" font-family="Arial Black,Arial" font-size="44" font-weight="900">GUARDIAN</text>
-      <text x="148" y="83" fill="#ff5500" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3.5">RESTORATION NETWORK</text>
-      <line x1="148" y1="91" x2="390" y2="91" stroke="#ff5500" stroke-width="1.5"/>
-      <text x="148" y="106" fill="#ff5500" font-family="Arial,sans-serif" font-size="10.5" letter-spacing="1.5">DAMAGE COVERED. EXPERT DISPATCHED.</text>
+<!-- ============ NAV ============ -->
+<nav class="grn-nav">
+  <a href="/" class="grn-nav__logo" aria-label="Guardian Restoration Network Home">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" height="56" width="auto">
+      <path d="M54 0 L108 20 L108 66 C108 97 82 116 54 128 C26 116 0 97 0 66 L0 20 Z" fill="#ff5500"/>
+      <path d="M54 9 L99 27 L99 66 C99 93 75 111 54 120 C33 111 9 93 9 66 L9 27 Z" fill="none" stroke="#000000" stroke-width="2.8" opacity="0.75"/>
+      <text x="54" y="93" font-family="Arial Black, sans-serif" font-size="70" font-weight="900" fill="white" text-anchor="middle">G</text>
+      <text x="122" y="52" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="white" letter-spacing="-0.5">GUARDIAN</text>
+      <text x="124" y="78" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#ff5500" letter-spacing="3.5">RESTORATION NETWORK</text>
+      <rect x="124" y="86" width="338" height="1.5" rx="1" fill="#ff5500" opacity="0.5"/>
+      <text x="124" y="102" font-family="Arial, sans-serif" font-size="10.5" fill="#ff7a00" letter-spacing="1.2">DAMAGE COVERED. EXPERT DISPATCHED.</text>
     </svg>
   </a>
-  <div class="nav-right">
-    <a href="tel:8886250666" class="nav-phone">📞 (888) 625-0666</a>
-    <a href="/contact/" class="btn-nav">GET HELP NOW</a>
+  <div class="grn-nav__links">
+    <div class="grn-nav__dropdown">
+      <a href="#">Services</a>
+      <div class="grn-nav__dropdown-menu">
+        <div class="section-label">RESTORATION</div>
+        <a href="/water-damage-restoration/">Water Damage</a>
+        <a href="/fire-damage-restoration/">Fire Damage</a>
+        <a href="/mold-remediation/">Mold Remediation</a>
+        <a href="/storm-damage-restoration/">Storm Damage</a>
+        <a href="/biohazard-cleanup/">Biohazard Cleanup</a>
+        <a href="/asbestos-abatement/">Asbestos Abatement</a>
+        <div class="section-label">CONSTRUCTION</div>
+        <a href="/general-contractor/">Reconstruction &amp; GC Work</a>
+      </div>
+    </div>
+    <a href="/how-it-works/">How It Works</a>
+    <a href="/about/">About</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/contact/">Contact</a>
+    <a href="tel:8886250666" class="grn-nav__phone">&#128222; (888) 625-0666</a>
+    <a href="/contact/" class="grn-nav__cta">Get Help Now</a>
+  </div>
+  <div class="grn-nav__hamburger" onclick="document.getElementById('mobileMenu').classList.toggle('open')">
+    <span></span><span></span><span></span>
   </div>
 </nav>
 
+<!-- MOBILE MENU -->
+<div class="grn-mobile-menu" id="mobileMenu">
+  <div class="section-label">RESTORATION</div>
+  <a href="/water-damage-restoration/">Water Damage</a>
+  <a href="/fire-damage-restoration/">Fire Damage</a>
+  <a href="/mold-remediation/">Mold Remediation</a>
+  <a href="/storm-damage-restoration/">Storm Damage</a>
+  <a href="/biohazard-cleanup/">Biohazard Cleanup</a>
+  <a href="/asbestos-abatement/">Asbestos Abatement</a>
+  <div class="section-label">CONSTRUCTION</div>
+  <a href="/general-contractor/">Reconstruction &amp; GC Work</a>
+  <div class="section-label">COMPANY</div>
+  <a href="/how-it-works/">How It Works</a>
+  <a href="/about/">About</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact/">Contact</a>
+  <a href="tel:8886250666">(888) 625-0666</a>
+  <a href="/contact/" class="mobile-cta">Get Help Now</a>
+</div>
+
+<!-- ============ HERO ============ -->
 <section class="hero">
   <div class="hero-badge">⚡ 24/7 Emergency Response — Nationwide</div>
   <h1>Property Damage?<br><span>We Handle Everything.</span></h1>
@@ -129,6 +312,7 @@ footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
   <span>All 50 States Served</span>
 </div>
 
+<!-- ============ SERVICES ============ -->
 <section class="services">
   <div class="section-label">Our Services</div>
   <h2 class="section-title">Every Type of Property Damage</h2>
@@ -159,7 +343,7 @@ footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
     </a>
     <a href="/biohazard-cleanup/" class="service-card">
       <div class="service-icon">⚠️</div>
-      <h3>Sewage Cleanup &amp; Biohazard</h3>
+      <h3>Biohazard Cleanup</h3>
       <p>Safe, certified cleanup of sewage backups, biohazard situations, and contaminated materials.</p>
       <span class="service-link">Learn More →</span>
     </a>
@@ -178,6 +362,7 @@ footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
   </div>
 </section>
 
+<!-- ============ HOW IT WORKS ============ -->
 <section class="how">
   <div class="section-label">How It Works</div>
   <h2 class="section-title">From Call to Contractor in 4 Steps</h2>
@@ -205,6 +390,7 @@ footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
   </div>
 </section>
 
+<!-- ============ WHY ============ -->
 <section class="why">
   <div class="section-label" style="color:rgba(255,85,0,.9)">Why Guardian</div>
   <h2 class="section-title">We're In Your Corner</h2>
@@ -232,39 +418,64 @@ footer{background:#060f1e;padding:40px 24px 24px;color:rgba(255,255,255,.5)}
   </div>
 </section>
 
+<!-- ============ CTA BAND ============ -->
 <section class="cta-band">
   <h2>Damage Happening Right Now?</h2>
   <p>Don't wait. Every minute matters. Call us and we'll get started immediately.</p>
   <a href="tel:8886250666" class="btn-white">📞 Call (888) 625-0666 Now</a>
 </section>
 
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span>GUARDIAN RESTORATION NETWORK</span>
-      <p>Lulabella Management DBA Guardian Restoration Network. Licensed, insured, and available 24/7 nationwide.</p>
+<!-- ============ FOOTER ============ -->
+<footer class="grn-footer">
+  <div class="grn-footer__inner">
+    <div class="grn-footer__grid">
+      <div class="grn-footer__brand">
+        <a href="/" aria-label="Guardian Restoration Network Home">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 115" height="44" width="auto">
+            <g transform="translate(10, 4)">
+              <path d="M46 0 L88 16 L88 54 C88 80 68 97 46 107 C24 97 4 80 4 54 L4 16 Z" fill="#0b1d3a"/>
+              <path d="M46 7 L82 21 L82 54 C82 77 64 93 46 101 C28 93 10 77 10 54 L10 21 Z" fill="none" stroke="#ff5500" stroke-width="2.2"/>
+              <text x="46" y="76" font-family="Arial Black, sans-serif" font-size="54" font-weight="900" fill="white" text-anchor="middle">G</text>
+            </g>
+            <text x="115" y="44" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="white" letter-spacing="-0.5">GUARDIAN</text>
+            <text x="115" y="66" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#ff5500" letter-spacing="4">RESTORATION NETWORK</text>
+            <rect x="115" y="73" width="278" height="1.5" rx="1" fill="#ff5500" opacity="0.6"/>
+            <text x="115" y="89" font-family="Arial, sans-serif" font-size="9" fill="rgba(255,255,255,0.45)" letter-spacing="1.2">DAMAGE COVERED. EXPERT DISPATCHED.</text>
+          </svg>
+        </a>
+        <p>National restoration network serving homeowners and commercial property owners. We manage your insurance claim and coordinate expert local contractors from call to completion.</p>
+      </div>
+      <div class="grn-footer__col">
+        <h4>Restoration</h4>
+        <a href="/water-damage-restoration/">Water Damage</a>
+        <a href="/fire-damage-restoration/">Fire Damage</a>
+        <a href="/mold-remediation/">Mold Remediation</a>
+        <a href="/storm-damage-restoration/">Storm Damage</a>
+        <a href="/biohazard-cleanup/">Biohazard Cleanup</a>
+        <a href="/asbestos-abatement/">Asbestos Abatement</a>
+      </div>
+      <div class="grn-footer__col">
+        <h4>Construction</h4>
+        <a href="/general-contractor/">Reconstruction &amp; GC Work</a>
+      </div>
+      <div class="grn-footer__col">
+        <h4>Company</h4>
+        <a href="/how-it-works/">How It Works</a>
+        <a href="/about/">About</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/contact/">Contact</a>
+        <a href="tel:8886250666">(888) 625-0666</a>
+      </div>
     </div>
-    <div class="footer-links">
-      <h4>Services</h4>
-      <a href="/water-damage-restoration/">Water Damage</a>
-      <a href="/fire-damage-restoration/">Fire Damage</a>
-      <a href="/mold-remediation/">Mold Remediation</a>
-      <a href="/storm-damage-restoration/">Storm Damage</a>
-      <a href="/biohazard-cleanup/">Sewage Cleanup</a>
-      <a href="/asbestos-abatement/">Asbestos Abatement</a>
-      <a href="/general-contractor/">General Contracting</a>
+    <div class="grn-footer__bottom">
+      <p>&copy; 2026 Guardian Restoration Network &mdash; Lulabella Management DBA. All rights reserved. Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
+      <p>Licensed &amp; Insured Nationwide</p>
     </div>
-    <div class="footer-links">
-      <h4>Contact</h4>
-      <a href="tel:8886250666">(888) 625-0666</a>
-      <a href="/contact/">Get Help Online</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    © 2026 Guardian Restoration Network. All rights reserved.
-    <p class="footer-disclaimer">Contractor dispatch subject to availability in your area. You are responsible for your deductible per your policy.</p>
   </div>
 </footer>
+
+<!-- GHL CHAT WIDGET -->
+<script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="69d5585984d8772ba9958d7e"></script>
 
 </body>
 </html>
