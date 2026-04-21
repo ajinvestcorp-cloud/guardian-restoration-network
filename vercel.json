@@ -6,6 +6,6 @@
     { "src": "^/faq/?$", "dest": "/faq.html" },
     { "src": "^/how-it-works/?$", "dest": "/how-it-works.html" },
     { "src": "^/services/?$", "dest": "/services.html" },
-    { "src": "^/([^/]+)/?$", "dest": "/grn-$1.html" }
+    { "src": "^/([^/]+)/?$", "dest": "/grn-$1-v1.html" }
   ]
 }
