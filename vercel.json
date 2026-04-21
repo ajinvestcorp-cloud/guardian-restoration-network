@@ -1,16 +1,11 @@
 {
   "routes": [
-    {
-      "src": "^/$",
-      "dest": "/grn-homepage-v7.html"
-    },
-    {
-      "src": "^/contact/?$",
-      "dest": "/contact.html"
-    },
-    {
-      "src": "^/([^/]+)/?$",
-      "dest": "/$1.html"
-    }
+    { "src": "^/$", "dest": "/grn-homepage-v7.html" },
+    { "src": "^/contact/?$", "dest": "/contact.html" },
+    { "src": "^/about/?$", "dest": "/about.html" },
+    { "src": "^/faq/?$", "dest": "/faq.html" },
+    { "src": "^/how-it-works/?$", "dest": "/how-it-works.html" },
+    { "src": "^/services/?$", "dest": "/services.html" },
+    { "src": "^/([^/]+)/?$", "dest": "/grn-$1.html" }
   ]
 }
