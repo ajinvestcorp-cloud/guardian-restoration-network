@@ -6,6 +6,13 @@
     { "src": "^/faq/?$", "dest": "/faq.html" },
     { "src": "^/how-it-works/?$", "dest": "/how-it-works.html" },
     { "src": "^/services/?$", "dest": "/services.html" },
+    { "src": "^/water-damage-restoration/?$", "dest": "/grn-water-damage-v1.html" },
+    { "src": "^/fire-damage-restoration/?$", "dest": "/grn-fire-damage-v1.html" },
+    { "src": "^/storm-damage-restoration/?$", "dest": "/grn-storm-damage-v1.html" },
+    { "src": "^/mold-remediation/?$", "dest": "/grn-mold-remediation-v1.html" },
+    { "src": "^/biohazard-cleanup/?$", "dest": "/grn-biohazard-cleanup-v1.html" },
+    { "src": "^/asbestos-abatement/?$", "dest": "/grn-asbestos-abatement-v1.html" },
+    { "src": "^/general-contractor/?$", "dest": "/grn-general-contractor-v1.html" },
     { "src": "^/([^/]+)/?$", "dest": "/grn-$1-v1.html" }
   ]
 }
